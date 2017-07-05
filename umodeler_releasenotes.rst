@@ -1,9 +1,11 @@
+.. raw:: html
+
+    <iframe src="https://api.assetstore.unity3d.com/affiliate/embed/package/80868/widget-wide-light" style="width:600px; height:130px; border:0px;"></iframe>
+	
 %%%%%%%%%%%%%%%%%%%%
 Release Notes
 %%%%%%%%%%%%%%%%%%%%
-
-You can get UModeler `here <https://www.assetstore.unity3d.com/#!/content/80868>`__
-
+	
 1.0.5
 ======================================
 
