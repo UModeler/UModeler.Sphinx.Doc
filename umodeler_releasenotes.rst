@@ -2,9 +2,9 @@
 
     <iframe src="https://api.assetstore.unity3d.com/affiliate/embed/package/80868/widget-wide-light" style="width:600px; height:130px; border:0px;"></iframe>
 	
-%%%%%%%%%%%%%%%%%%%%
-Release Notes
-%%%%%%%%%%%%%%%%%%%%
+###################
+   Release Notes
+###################
 
 1.0.6 (05/30/2017)
 ======================================
