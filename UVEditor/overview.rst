@@ -1,5 +1,6 @@
+*************
 Overview
-=========
+*************
 
  | There are two ways of running UVEditor as follows.
  |
@@ -17,7 +18,7 @@ Overview
  |  • Inspector - Various tools and settings necessary to unwrap and edit.
  
 Keyboard
-----------
+==========
 +-------+-----------------+
 | W     | Translate Gizmo |
 +-------+-----------------+
@@ -33,13 +34,13 @@ Keyboard
 +-------+-----------------+
 
 Getting Started
----------------
+==================
 
  .. figure:: /images/UVEditor_GettingStarted.gif
  
     Unwrapping the selected polygons and basic demo to show how to edit UVs
 
- | The process to start on using UVEditor is as follows.
+ | The process to get started on using UVEditor is as follows.
  |
  | • Open UVEditor by clicking on [Open UVEditor] in the inspector of UModeler.
  | • Select several polygons in the scene view.

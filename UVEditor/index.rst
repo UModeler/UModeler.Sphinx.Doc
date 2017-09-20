@@ -15,8 +15,8 @@ UV Editor
    :maxdepth: 3
 
    overview.rst
-   settings.rst
-   transform.rst
+   uvsettings.rst
+   uvtransform.rst
    unwrap.rst
    selection.rst
    flip.rst
