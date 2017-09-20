@@ -12,7 +12,6 @@
 
       GettingStarted/index.rst
       Interface/index.rst
-      CreateNew/index.rst
       Move/index.rst
       Selection/index.rst
       Drawing/index.rst
@@ -21,7 +20,7 @@
       Remove/index.rst
       Tweak/index.rst
       Surface/index.rst
-      Others/index.rst
+      Misc/index.rst
       UVEditor/index.rst
       Settings/index.rst
 
@@ -56,66 +55,55 @@ Sections
 
       .. container:: descr
 
-         :doc:`/CreateNew/index`
-			Game object creation tools containing UModeler component.
-
-      .. container:: descr
-
          :doc:`/Move/index`
-            Blender's data management of scene data and the structure of blend-files.
+            All tools related to moving vertices/edges/polygons/object.			
 
       .. container:: descr
 
          :doc:`/Selection/index`
-            The various supported geometry types, modeling tools, and modifiers.
+			The various supported tools to help you select many elements at once as you want 
 
       .. container:: descr
 
          :doc:`/Drawing/index`
-            The 3D texture painting and sculpting modes.
+            2D polygons drawing tools in easy and intuive ways.
 
       .. container:: descr
 
          :doc:`/PrimitiveShapes/index`
-            Overview of armatures, pose mode and constraints.
+            Procecural 3D Primitive Shapes, such as Box, Room, Stair, Cylinder, Cone, Sphere and Capsule. 
 
       .. container:: descr
 
          :doc:`/Add/index`
-            Keyframe animation, graph interpolation, drivers, and shape keys.
+			Various and Powerful ways of adding elements to a shape.
 
       .. container:: descr
 
          :doc:`/Remove/index`
-            Physics simulations, particle systems and dynamic paint.
+			Easy and Convinent ways of removing elements from a shape.
 
       .. container:: descr
 
          :doc:`/Tweak/index`
-            Render engines (Internal, Cycles), shading, post-processing, and Freestyle (NPR).
-    
+			Making a small change in a shape.
+                
       .. container:: descr
 
          :doc:`/Surface/index`
-            Blender's Game engine, including scripting, logic and physics.
+            Tools for decorating surfaces of a shape by assigning Materials, UVs, Colors and Smoothing group IDs etc to each vertex or polygon.
 
       .. container:: descr
 
-         :doc:`/Others/index`
-            Blender's settings.
+         :doc:`/Misc/index`
+            Miscellaneous Tools.
 			
       .. container:: descr
 
          :doc:`/UVEditor/index`
-            Compatibility errors related to other software (graphics drivers, Python),
-            how to write a bug report and recover data.
+			Separate editor window to edit UVs using various tools, such as unwrapping, transforming UVs, alightment, flip/rotate, sew etc.
 
       .. container:: descr
 
          :doc:`/Settings/index`
-            Python scripting, how to write add-ons and a reference for command line arguments.
-
-      .. container:: descr
-
-         :ref:`Manual Index <genindex>`
-            A list of terms linked to the Glossary.
+            UModeler's Settings.     

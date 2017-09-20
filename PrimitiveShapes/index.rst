@@ -1,5 +1,5 @@
 ########################
-Primitive Shapes
+Primitive Shapes Tools
 ########################
 
 .. toctree::  
