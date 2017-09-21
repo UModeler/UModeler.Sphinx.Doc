@@ -7,7 +7,7 @@ Settings
     Settings on the inspector
 
 Enable Snap
-   If this is on, UV transformation will be affectad by Grid Snap Size and Rotation Snap Size which can be specified below.
+   If this is on, UV transformation will be affectad by Grid Snap Size and Rotation Snap Size specified below.
 Grid Snap Size
    This defines how many size the UVs move whenever they are dragged or translated by the gizmo.
 Rotation Snap Size
