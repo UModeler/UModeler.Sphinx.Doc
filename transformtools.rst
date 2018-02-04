@@ -77,7 +77,6 @@ Object tool
  
 3D Cursor tool
 ===============
-<<<<<<< HEAD
  Sets a position of 3D cursor, which is used as a pivot of transfoming or target position or anything, by clicking on a blue box or dragging a translation gizmo.
  
 .. note::
@@ -88,9 +87,6 @@ Object tool
    :scale: 95 %
    
    ``3D Cursor Tool`` Demo
-=======
- Sets a position of 3D cursor which is used as a pivot of transforming or target position etc.
->>>>>>> origin/master
 
 ----------------------------------------------------------------------------------------------------------------------
  
