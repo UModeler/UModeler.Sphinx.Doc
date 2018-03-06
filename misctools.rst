@@ -68,6 +68,8 @@ Add Polygons
 Remove Polygons
  Gets rid of the selected polygons from the current polygon group.
 
+-----------------------------------------------------------------------------------
+ 
 Export Tool
 ==============
 
