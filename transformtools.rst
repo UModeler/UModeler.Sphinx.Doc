@@ -24,6 +24,9 @@ To begin to transform elements, you have to select them at first. Which type of 
 Properties
 -----------
 
+Select Only Visible
+ Selects only visible vertices/edges/polygons from a camera. Occluded elements from other polygons will not be selected. This is available only when the game object has MeshCollider component.
+
 Distance
  How distant the selected elements move. This is only available as translation gizmo is enabled.
  
