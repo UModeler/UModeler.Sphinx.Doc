@@ -2,15 +2,8 @@
 Misc Tools
 ############
 
-Game Object Tool
+New UModeler Tool
 ====================
-
-Creates a game object with a UModeler component.
-
------------------------------------------------------------------------------------
-
-Collider Object Tool
-======================
 
 Creates a game object with a UModeler component and Mesh Collider component.
 
@@ -106,6 +99,17 @@ Collider Tool
 =================
 
 Adds a Mesh Collider component.
+
+Properties
+-------------
+Add Collider
+ Adds a MeshCollider component.
+
+Remove Collider
+ Removes a MeshCollider component.
+
+Assign Mesh
+ Assign a mesh created by UModeler to the current MeshCollider component.
 
 -----------------------------------------------------------------------------------
 
