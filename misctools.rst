@@ -7,7 +7,11 @@ New UModeler Tool
 
 Creates a game object with a UModeler component and Mesh Collider component.
 
------------------------------------------------------------------------------------
+.. note::
+
+ From version 2.1.1 ``Game Object Tool`` and ``Collider Object Tool`` have been replaced with ``New UModeler Tool``.
+
+---------------------------------------------------------------------------------------
 
 Bake Transform Tool
 ======================
@@ -36,6 +40,9 @@ You can choose a group via either ``Active Group`` in the UModeler status or ``P
 
 Properties
 ------------
+Select Only Visible
+ Selects only visible vertices/edges/polygons from a camera. Occluded elements from other polygons will not be selected. This is available only when the game object has MeshCollider component.
+ 
 Group Name
  The current polygon group name
  

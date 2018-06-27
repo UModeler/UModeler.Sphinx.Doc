@@ -101,12 +101,15 @@ Interface
 
 Properties
 ---------------
+Select Only Visible
+ If on, Selects only visible vertices/edges/polygons from a camera. Occluded elements from other polygons will not be selected. This is available only when the game object has MeshCollider component.
 
 Distance
  How long the selected polygons are extruded
 
 Pushpull Type
- * ``Individual`` : The selected polygons are extruded in each direction of the polygons.
+ * ``Individual Polygon`` : The selected polygons are extruded in each normal direction of the polygons.
+ * ``Vertex Normal`` : The selected polygons are extruded in each normal direction of the vertices.
  * ``Average Normal`` : The selected polygons are extruded in the average direction of them.
  * ``X`` : The selected polygons are extruded in X-axis direction.
  * ``Y`` : The selected polygons are extruded in Y-axis direction.
@@ -114,6 +117,15 @@ Pushpull Type
 
 Continuous
  If off, the boundary edges between the existing side polygons and the new side polygons will be left.
+ 
+One Step Size
+ The size of one step push/pull. This size are set from the grid snap size as default.
+
+One Step Push
+ Extrudes the selected polygons back by the one step size.
+
+One Step Pull 
+ Extrudes the selected polygons forward by the one step size.
  
 .. figure:: /images/UModeler_MultiPushPullTool.gif
   :scale: 95 %
