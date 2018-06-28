@@ -50,6 +50,11 @@ Insert Vertex
    :scale: 95 %
 
    Selecting and transforming elements.
+   
+.. figure:: /images/UModeler_BasicExtrusion_In_TransformTool.gif   
+   :scale: 95 %
+
+   Extruding polygons and edges by moving a gizmo holding ``SHIFT``.
 
 .. figure:: /images/UModeler_TransformHoldingShift_v2.gif
    :scale: 95 %

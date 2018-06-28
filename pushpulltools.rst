@@ -81,20 +81,20 @@ Continuous
 Multi PushPull Tool
 ======================
 
-Multiple polygons are pushed or pulled along a helper line
+Multiple polygons are pushed or pulled along a helper arrow
 
 Steps
 ---------------
 1. Go to ``Multi PushPull Tool``.
-2. If no selected polygons, select several polygons. Then you can see the ``Help Line`` in yellow.
-3. Click ``LMB`` on any point on the ``Helper Line``.
-4. Drag the mouse along the line.
+2. If no selected polygons, select several polygons. Then you can see the ``Help arrow`` in yellow.
+3. Click ``LMB`` on any point on the ``Helper arrow``.
+4. Drag the mouse in a direction of the the arrow.
 5. If necessary, adjust ``Distance`` property.
  
 Interface
 ---------------
 ``LMB Drag``
- It should start on a helper line and the mouse should be dragged along the helper line.
+ It should start on a helper arrow and the mouse should be dragged along it.
  
 ``ESC``
  Exits this tool.
@@ -114,6 +114,11 @@ Pushpull Type
  * ``X`` : The selected polygons are extruded in X-axis direction.
  * ``Y`` : The selected polygons are extruded in Y-axis direction.
  * ``Z`` : The selected polygons are extruded in Z-axis direction.
+ 
+.. note::
+
+ Since version 2.1.1 ``Individual`` type has been renamed to ``Individual Polygon`` type and ``Vertex Normal`` type has been added.
+  
 
 Continuous
  If off, the boundary edges between the existing side polygons and the new side polygons will be left.
@@ -131,3 +136,13 @@ One Step Pull
   :scale: 95 %
    
   Multi PushPull Tool Demo.
+  
+.. figure:: /images/UModeler_MultiplePushPull_3types.gif
+  :scale: 95 %
+   
+  3 types of Multi PushPull action - ``Individual Polygon``, ``Vertex Normal`` and ``Average Normal`` 
+  
+.. figure:: /images/UModeler_MultiPushPull_Onestepextrusion.gif
+  :scale: 95 %
+  
+  One Step Push/Pull.
