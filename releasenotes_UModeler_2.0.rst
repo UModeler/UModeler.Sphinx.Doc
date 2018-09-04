@@ -3,7 +3,39 @@ UModeler 2.0
 ############################
 
  .. figure:: /images/UModeler_Banner.png
-
+ 
+Version 2.2
+==================================================================================
+ - Feature : 3.0 Beta - New Menu System (Icon and Context based). This can be enabled by toggling [T] off in the inspector.
+ - Feature : Commentary Box - Can be enabled/disabled via [Settings].
+ - Feature : UV Editor - Added Packing tool.
+ - Feature : UV Editor - Added Fit tool.
+ - Feature : UV Editor - Renamed Collapse tool to Weld tool and divided it into Weld to First, Weld to ave and Weld to Last.
+ - Feature : UV Editor - Auto snapping Cross Cursor to each UV vertex.
+ - Change : Replaced [Tools] and [Settings] foldout arrows with Toolbar UIs in the inspector.
+ - Change : Moved Pivot tool from Transform group to Tweak group.
+ - Change : Disabled the Local Ruler display of the selected elements.
+ - Change : Snap tool has been renamed to Snap Move too and moved from Transform grooup to Tweak group
+ - Change : 3D Cursor tool has been removed. Instead 3D cursor can be enabled via Settings. 
+ - Change : [Help] button has been replaced with [?] button in the inspector.
+ - Change : Added [T] button to switch the menu between Text-based and Icon-based
+ - Change : Renamed Invert Face tool into Flip Tool.
+ - Change : Renamed Flip Tool into Axis Flip Tool.
+ - Change : Moved UModeler status box displayed on Scene view to the inspector.
+ - Change : Removed Polygon group button and list in UModeler status. They are only availabe within Polygon Group tool.
+ - Enhancement : Positioning 3D Cursor by Ctrl+Shift+LMB on a vertex.
+ - Enhancement : Align Tool - Replacing Axis/Location combo boxes with Toolbar buttons.
+ - Enhancement : Boolean Tool - Revealed each boolean operation as tools in the inspector.
+ - Enhancement : UV Editor - Improved the whole performance.
+ - BugFix : Clone Tool - Fixed invisible polygon outlines on a line while dragging LMB.
+ - BugFix : Eraser Tool - Fixed incorrect edge removal on a quad of a cube which is converted from a Unity primitive cube.
+ - BugFix : Fixed wrong directions and positions of gizmos after rotating or scaling an object.
+ - BugFix : Fixed wrong positions of vertex/polygon boxes used for selecting vertex/polygon.
+ - BugFix : Fixed a shared mesh after duplicating a UModeler object.
+ - BugFix : Fixed replacing Unity primitive shape mesh with UModeler mesh after UModelerizing.
+ - BugFix : Fixed former polygons disappearance when one step pushpull is done just after pushpull by dragging an arrow 
+ - BugFix : Fixed Duplicated Cancel action triggered by pressing ESC while selecting Vertex/Edge/Polygon.
+ 
 Version 2.1.1
 ==================================================================================
  
@@ -12,8 +44,8 @@ Version 2.1.1
  - Enhancement : Multi PushPull - Changed a helper line to an arrow.
  - Enhancement : Multi PushPull - Added One step push/pull. (See :ref:`this <onesteppushpull>`)
  - Enhancement : Multi PushPull - Added Vertex Normal type extrusion. (See :ref:`this <vertexnormalpushpull>`)
- - Tweak : Multip PushPull - ``Individual`` in PushPull type has been renamed to ``Individual Polygon``
- - Tweak : Removed ``Game Object`` tool and Renamed ``Collider Object`` to ``New UModeler`` in Misc group. 
+ - Change : Multip PushPull - ``Individual`` in PushPull type has been renamed to ``Individual Polygon``
+ - Change : Removed ``Game Object`` tool and Renamed ``Collider Object`` to ``New UModecler`` in Misc group. 
  - Feature : UVTool - Added ``Export`` tool to export uv outlines to .png file. (See :ref:`this <exportuvoutline>`)
  
 Version 2.1.0
@@ -100,12 +132,12 @@ Version 2.0.0
  - ``Combine Tool`` - Pressing ``SPACE`` will combine the selected vertices in ``Combine Tool``.
  - ``Vertex/Edge/Polygon Tool`` - 1D Snapping has been added. It works by moving a cursor to another vertex holding ``CTRL`` while dragging the translation gizmo.
  - ``Vertex/Edge/Polygon Tool`` - ``Insert Vertex`` property has been added.
- - Tweak - ``PushPull Tool`` : Renamed ``Draw Edges`` property to ``Continuous``.
- - Tweak - ``Multiple PushPull`` button has been added. see :ref:`pushpull_tool_label` 
- - Tweak - ``Cut Tool`` : Made Cutting direction flipped by pressing ``SPACE`` while ``LMB`` Dragging
- - Tweak - ``Backface Tool`` : Renamed to ``Local Settings``
- - Tweak - ``Copy Tool`` : Renamed to ``Duplicate Tool``
- - Tweak - ``Game Object`` and ``Collider Object`` buttons have been moved to ``Misc`` group.
+ - Change - ``PushPull Tool`` : Renamed ``Draw Edges`` property to ``Continuous``.
+ - Change - ``Multiple PushPull`` button has been added. see :ref:`pushpull_tool_label` 
+ - Change - ``Cut Tool`` : Made Cutting direction flipped by pressing ``SPACE`` while ``LMB`` Dragging
+ - Change - ``Backface Tool`` : Renamed to ``Local Settings``
+ - Change - ``Copy Tool`` : Renamed to ``Duplicate Tool``
+ - Change - ``Game Object`` and ``Collider Object`` buttons have been moved to ``Misc`` group.
  - Bugfix - Not displaying triangulation result has been fixed.
  - Bugfix - Spotty lightmap bug has been fixed.
   
