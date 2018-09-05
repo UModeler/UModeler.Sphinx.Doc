@@ -10,23 +10,25 @@ Version 2.2
 General
 ---------------
  - Change : Replaced ``Tools`` and ``Settings`` foldout arrows with Toolbar UI in the inspector.
- - Change : Moved ``Pivot Tool`` from ``Transform group`` to ``Tweak group``.
+ - Change : Changed ``Transform`` group name into ``Elements``.
+ - Change : Moved ``Pivot Tool`` from ``Transform group`` to ``Tweak group``.  (See :ref:`this <PivotTool>`)
  - Change : Disabled the Local Ruler display of the selected elements.
- - Change : ``Snap Tool`` has been renamed to ``Snap Move Tool`` and moved from ``Transform grooup`` to ``Tweak group``
- - Change : ``3D Cursor Tool`` has been removed. Instead 3D cursor can be enabled via Settings and it can be positioned anytime.
+ - Change : ``Snap Tool`` has been renamed to ``Snap Move Tool`` and moved from ``Transform grooup`` to ``Tweak group``. (See :ref:`this <SnapMoveTool>`)
+ - Change : ``3D Cursor Tool`` has been removed. Instead 3D cursor can be enabled via Settings and it can be positioned anytime. (See :ref:`this <Use3DCursor>`)
  - Change : Removed ``Cursor As Pivot`` property in ``Vertex/Edge/Polygon Tools``. Instead just enabling ``3D Cursor`` in ``Settings`` does it.
  - Change : ``Help`` button has been replaced with ``?`` button in the inspector.
  - Change : Renamed ``Invert Face Tool`` into ``Flip Tool``.
  - Change : Renamed ``Flip Tool`` into ``Axis Flip Tool``.
  - Change : Moved UModeler status box displayed on Scene view to the inspector. 
  - Change : Disabled ``Input Viewer`` which will be replaed with ``Commentary Box``
- - Change : Removed Polygon group button and list in UModeler status. They are only availabe within ``Polygon Group Tool``.
+ - Change : Moved ``Open UVEditor`` button from ``Surface Group`` into ``UV Tool`` property.
+ - Change : Removed Polygon group button and list in UModeler status. They are only availabe within ``Polygon Group Tool``. 
  - Enhancement : Improved a way of positioning 3D Cursor by ``Ctrl+Shift+LMB`` on a vertex.
  - Enhancement : Auto snapping ``3D Cursor`` to the cloeset UV vertex.
  - Enhancement : ``Align Tool`` - Replacing Axis/Location combo boxes with Toolbar buttons.
  - Enhancement : ``Boolean Tool`` - Revealed each boolean operation as tools in the inspector.
- - Enhancement : ``Pivot Tool`` - Enhanced a way of setting a pivot. 3D Cursor posision will be the pivot pos as soon as selecting ``Pivot Tool``.
- - BugFix : ``Clone Tool`` - Fixed invisible polygon outlines on a line while dragging LMB.
+ - Enhancement : ``Pivot Tool`` - Enhanced a way of setting a pivot. 3D Cursor position will be the pivot as soon as selecting ``Pivot Tool``.
+ - BugFix : ``Clone Tool`` - Fixed invisible polygon outlines along a line while dragging LMB.
  - BugFix : ``Eraser Tool`` - Fixed incorrect edge removal on a quad of a cube which is converted from a Unity primitive cube.
  - BugFix : Fixed wrong directions and positions of gizmos after rotating or scaling an object.
  - BugFix : Fixed wrong positions of vertex/polygon boxes used for selecting vertex/polygon.
@@ -36,12 +38,14 @@ General
  - BugFix : Fixed Duplicated Cancel action triggered by pressing ``ESC`` while selecting Vertex/Edge/Polygon.
 
 UV Editor
----------------
- - Feature : Added ``Packing Tool``.
- - Feature : Added ``Fit Tool``.
- - Feature : Renamed ``Collapse Tool`` to ``Weld Tool`` and divided it into ``Weld to First``, ``Weld to Ave`` and ``Weld to Last``.
+--------------- 
+ - Feature : Added ``Packing Tool``. (See :ref:`this <PackingTool>`)
+ - Feature : Added ``Fit Tool``. (See :ref:`this <FitTool>`)
+ - Feature : Renamed ``Collapse Tool`` to ``Weld Tool`` and divided it into ``Weld to First``, ``Weld to Ave`` and ``Weld to Last``.  (See :ref:`this <WeldTools>`)
  - Enhancement : Auto snapping ``Cross Cursor`` to the cloeset UV vertex.
  - Enhancement : Improved the whole performance.
+ - Change : ``Make Island Tool`` has been renamed to ``Detach`` Tool.
+ - Change : ``Sew Group`` and ``Break Merge Group`` has been merged and the merged group has been named ``Weld and Break``. 
  
 3.0 Beta
 ---------------
@@ -54,8 +58,9 @@ UV Editor
  - Feature : ``Commentary Box`` - Can be enabled/disabled via ``Settings``.
  - Feature : Added ``T`` toggle to the top of the inspector to switch the menu between Text-based and Icon-based
  - Feature : Added ``F`` toggle next to ``T`` toggle to make the menu dockable and floatable.
- - Feature : Placed Vertex/Edge/Polygon Tools icons on the top of the scene view.
- - Feature : Placed Settings icon and 3D Cursor icon next to Vertex/Edge/Polygon tool icons in the scene view. They can be toggled on and off.
+ - Feature : Placed Vertex/Edge/Polygon Tools icons on the top-center of the scene view.
+ - Feature : Placed Settings icon and 3D Cursor icon next to Vertex/Edge/Polygon tool icons on the scene view. They can be toggled on and off.
+ - Change : Added ``UModeler Window`` to the top menu.
   
 Version 2.1.1
 ==================================================================================
