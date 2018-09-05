@@ -9,8 +9,8 @@ Version 2.2
 
 General
 ---------------
- - Change : Replaced [Tools] and [Settings] foldout arrows with Toolbar UIs in the inspector.
- - Change : Moved ``Pivot tool`` from Transform group to Tweak group.
+ - Change : Replaced [Tools] and [Settings] foldout arrows with Toolbar UI in the inspector.
+ - Change : Moved ``Pivot tool`` from ``Transform group`` to ``Tweak group``.
  - Change : Disabled the Local Ruler display of the selected elements.
  - Change : ``Snap tool`` has been renamed to ``Snap Move tool`` and moved from ``Transform grooup`` to ``Tweak group``
  - Change : ``3D Cursor tool`` has been removed. Instead 3D cursor can be enabled via Settings and it can be positioned anytime.
