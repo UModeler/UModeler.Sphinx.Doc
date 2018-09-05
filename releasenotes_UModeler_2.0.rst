@@ -9,21 +9,23 @@ Version 2.2
 
 General
 ---------------
- - Change : Replaced [Tools] and [Settings] foldout arrows with Toolbar UI in the inspector.
- - Change : Moved ``Pivot tool`` from ``Transform group`` to ``Tweak group``.
+ - Change : Replaced ``Tools`` and ``Settings`` foldout arrows with Toolbar UI in the inspector.
+ - Change : Moved ``Pivot Tool`` from ``Transform group`` to ``Tweak group``.
  - Change : Disabled the Local Ruler display of the selected elements.
- - Change : ``Snap tool`` has been renamed to ``Snap Move tool`` and moved from ``Transform grooup`` to ``Tweak group``
- - Change : ``3D Cursor tool`` has been removed. Instead 3D cursor can be enabled via Settings and it can be positioned anytime.
- - Change : [Help] button has been replaced with [?] button in the inspector.
- - Change : Renamed ``Invert Face tool`` into ``Flip Tool``.
+ - Change : ``Snap Tool`` has been renamed to ``Snap Move Tool`` and moved from ``Transform grooup`` to ``Tweak group``
+ - Change : ``3D Cursor Tool`` has been removed. Instead 3D cursor can be enabled via Settings and it can be positioned anytime.
+ - Change : Removed ``Cursor As Pivot`` property in ``Vertex/Edge/Polygon Tools``. Instead just enabling ``3D Cursor`` in ``Settings`` does it.
+ - Change : ``Help`` button has been replaced with ``?`` button in the inspector.
+ - Change : Renamed ``Invert Face Tool`` into ``Flip Tool``.
  - Change : Renamed ``Flip Tool`` into ``Axis Flip Tool``.
- - Change : Moved UModeler status box displayed on Scene view to the inspector.
- - Change : Removed Polygon group button and list in UModeler status. They are only availabe within ``Polygon Group tool``.
+ - Change : Moved UModeler status box displayed on Scene view to the inspector. 
+ - Change : Disabled ``Input Viewer`` which will be replaed with ``Commentary Box``
+ - Change : Removed Polygon group button and list in UModeler status. They are only availabe within ``Polygon Group Tool``.
  - Enhancement : Improved a way of positioning 3D Cursor by ``Ctrl+Shift+LMB`` on a vertex.
  - Enhancement : Auto snapping ``3D Cursor`` to the cloeset UV vertex.
  - Enhancement : ``Align Tool`` - Replacing Axis/Location combo boxes with Toolbar buttons.
  - Enhancement : ``Boolean Tool`` - Revealed each boolean operation as tools in the inspector.
- - Enhancement : ``Pivot Tool`` - Enhanced a way of set a pivot. 3D Cursor posision will be the pivot pos as soon as selecting ``Pivot tool``.
+ - Enhancement : ``Pivot Tool`` - Enhanced a way of setting a pivot. 3D Cursor posision will be the pivot pos as soon as selecting ``Pivot Tool``.
  - BugFix : ``Clone Tool`` - Fixed invisible polygon outlines on a line while dragging LMB.
  - BugFix : ``Eraser Tool`` - Fixed incorrect edge removal on a quad of a cube which is converted from a Unity primitive cube.
  - BugFix : Fixed wrong directions and positions of gizmos after rotating or scaling an object.
@@ -35,9 +37,9 @@ General
 
 UV Editor
 ---------------
- - Feature : Added ``Packing tool``.
- - Feature : Added ``Fit tool``.
- - Feature : Renamed ``Collapse tool`` to ``Weld tool`` and divided it into ``Weld to First``, ``Weld to Ave`` and ``Weld to Last``.
+ - Feature : Added ``Packing Tool``.
+ - Feature : Added ``Fit Tool``.
+ - Feature : Renamed ``Collapse Tool`` to ``Weld Tool`` and divided it into ``Weld to First``, ``Weld to Ave`` and ``Weld to Last``.
  - Enhancement : Auto snapping ``Cross Cursor`` to the cloeset UV vertex.
  - Enhancement : Improved the whole performance.
  
@@ -46,12 +48,14 @@ UV Editor
  .. figure:: /images/UModeler_NewUI.gif
     :scale: 95 %
 	
-    New Menu System - Switchable between Text based and Icon based by clicking [T] toggle in the inspector.
+    New Menu System - Switchable between Text based and Icon based by clicking ``T`` toggle in the inspector.
 	
- - Feature : New Menu System (Icon and Context based). This can be enabled by toggling [T] off in the inspector.
- - Feature : ``Commentary Box`` - Can be enabled/disabled via [Settings].
- - Feature : Added [T] toggle to the top of the inspector to switch the menu between Text-based and Icon-based
- - Feature : Added [F] toggle next to [T] toggle to make the menu dockable and floatable.
+ - Feature : New Menu System (Icon and Context based). This can be enabled by toggling ``T`` off in the inspector.
+ - Feature : ``Commentary Box`` - Can be enabled/disabled via ``Settings``.
+ - Feature : Added ``T`` toggle to the top of the inspector to switch the menu between Text-based and Icon-based
+ - Feature : Added ``F`` toggle next to ``T`` toggle to make the menu dockable and floatable.
+ - Feature : Placed Vertex/Edge/Polygon Tools icons on the top of the scene view.
+ - Feature : Placed Settings icon and 3D Cursor icon next to Vertex/Edge/Polygon tool icons in the scene view. They can be toggled on and off.
   
 Version 2.1.1
 ==================================================================================
@@ -104,7 +108,7 @@ Version 2.0.7
  
 Version 2.0.6
 ==================================================================================
- - Feature : New snapping - Snap to X-axis or Y-axis of the current placed points. This makes drawing a rectangle and a right angle triangle etc possible using ``Line tool`` (See :ref:`this <SnapToXY>`)
+ - Feature : New snapping - Snap to X-axis or Y-axis of the current placed points. This makes drawing a rectangle and a right angle triangle etc possible using ``Line Tool`` (See :ref:`this <SnapToXY>`)
  - Feature : Seamless Editing - UModeler objects in a scene can be edited seamlessly. (See :ref:`this <seamless-edit>`)
  - Enhancement : Edge display - Disabled showing invisible parts' edges.
  - Fix : Added recalculating tangents (See :ref:`this <recalculate-tangents>`)
@@ -125,11 +129,11 @@ Version 2.0.5
  - UV Editor : 1D snapping done by transforming elements holding ``CTRL``
  - Transform tool : 1D snapping done by transforming elements holding ``CTRL``
  - Transform tool : Exposure of ``Insert Vertex`` property.
- - ``Transform tool`` : Vertex splits when transforming a vertex holding ``SHIFT``.
- - ``Material tool`` : Improvement of displaying material preview in the list. The material with no texture is also displayed well.
+ - ``Transform Tool`` : Vertex splits when transforming a vertex holding ``SHIFT``.
+ - ``Material Tool`` : Improvement of displaying material preview in the list. The material with no texture is also displayed well.
  - ``Bevel Tool`` : Made the selected vertices/edges/polygons visible at the beginning of Beveling.
  - ``Vertex Color Tool`` has been added.
- - The Color tool has been renamed to ``Polygon Color tool``.
+ - The Color tool has been renamed to ``Polygon Color Tool``.
  - Grid Setup : ``0.0315``, ``0.0625`` grid size have been added to Popular Grid Size 
 
 Version 2.0.0
