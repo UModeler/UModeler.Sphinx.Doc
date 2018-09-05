@@ -6,27 +6,23 @@ UModeler 2.0
  
 Version 2.2
 ==================================================================================
- - Feature : 3.0 Beta - New Menu System (Icon and Context based). This can be enabled by toggling [T] off in the inspector.
- - Feature : Commentary Box - Can be enabled/disabled via [Settings].
- - Feature : UV Editor - Added Packing tool.
- - Feature : UV Editor - Added Fit tool.
- - Feature : UV Editor - Renamed Collapse tool to Weld tool and divided it into Weld to First, Weld to ave and Weld to Last.
- - Feature : UV Editor - Auto snapping Cross Cursor to each UV vertex.
+
+General
+---------------
  - Change : Replaced [Tools] and [Settings] foldout arrows with Toolbar UIs in the inspector.
  - Change : Moved Pivot tool from Transform group to Tweak group.
  - Change : Disabled the Local Ruler display of the selected elements.
  - Change : Snap tool has been renamed to Snap Move too and moved from Transform grooup to Tweak group
- - Change : 3D Cursor tool has been removed. Instead 3D cursor can be enabled via Settings. 
+ - Change : 3D Cursor tool has been removed. Instead 3D cursor can be enabled via Settings and it can be positioned anytime.
  - Change : [Help] button has been replaced with [?] button in the inspector.
- - Change : Added [T] button to switch the menu between Text-based and Icon-based
  - Change : Renamed Invert Face tool into Flip Tool.
  - Change : Renamed Flip Tool into Axis Flip Tool.
  - Change : Moved UModeler status box displayed on Scene view to the inspector.
  - Change : Removed Polygon group button and list in UModeler status. They are only availabe within Polygon Group tool.
- - Enhancement : Positioning 3D Cursor by Ctrl+Shift+LMB on a vertex.
+ - Enhancement : Improved a way of positioning 3D Cursor by Ctrl+Shift+LMB on a vertex.
  - Enhancement : Align Tool - Replacing Axis/Location combo boxes with Toolbar buttons.
  - Enhancement : Boolean Tool - Revealed each boolean operation as tools in the inspector.
- - Enhancement : UV Editor - Improved the whole performance.
+ - Enhancement : Pivot Tool - Enhanced a way of set a pivot. 3D Cursor posision will be the pivot pos as soon as selecting Pivot tool.
  - BugFix : Clone Tool - Fixed invisible polygon outlines on a line while dragging LMB.
  - BugFix : Eraser Tool - Fixed incorrect edge removal on a quad of a cube which is converted from a Unity primitive cube.
  - BugFix : Fixed wrong directions and positions of gizmos after rotating or scaling an object.
@@ -35,7 +31,27 @@ Version 2.2
  - BugFix : Fixed replacing Unity primitive shape mesh with UModeler mesh after UModelerizing.
  - BugFix : Fixed former polygons disappearance when one step pushpull is done just after pushpull by dragging an arrow 
  - BugFix : Fixed Duplicated Cancel action triggered by pressing ESC while selecting Vertex/Edge/Polygon.
+
+UV Editor
+---------------
+ - Feature : Added Packing tool.
+ - Feature : Added Fit tool.
+ - Feature : Renamed Collapse tool to Weld tool and divided it into Weld to First, Weld to ave and Weld to Last.
+ - Feature : Auto snapping Cross Cursor to each UV vertex.
+ - Enhancement : Improved the whole performance.
  
+3.0 Beta
+---------------
+ .. figure:: /images/UModeler_NewUI.gif
+    :scale: 95 %
+	
+    New Menu System - Switchable between Text based and Icon based by clicking [T] toggle in the inspector.
+	
+ - Feature : New Menu System (Icon and Context based). This can be enabled by toggling [T] off in the inspector.
+ - Feature : Commentary Box - Can be enabled/disabled via [Settings].
+ - Feature : Added [T] toggle to the top of the inspector to switch the menu between Text-based and Icon-based
+ - Feature : Added [F] toggle next to [T] toggle to make the menu dockable and floatable.
+  
 Version 2.1.1
 ==================================================================================
  
