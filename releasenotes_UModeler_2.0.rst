@@ -10,34 +10,35 @@ Version 2.2
 General
 ---------------
  - Change : Replaced [Tools] and [Settings] foldout arrows with Toolbar UIs in the inspector.
- - Change : Moved Pivot tool from Transform group to Tweak group.
+ - Change : Moved ``Pivot tool`` from Transform group to Tweak group.
  - Change : Disabled the Local Ruler display of the selected elements.
- - Change : Snap tool has been renamed to Snap Move too and moved from Transform grooup to Tweak group
- - Change : 3D Cursor tool has been removed. Instead 3D cursor can be enabled via Settings and it can be positioned anytime.
+ - Change : ``Snap tool`` has been renamed to ``Snap Move tool`` and moved from ``Transform grooup`` to ``Tweak group``
+ - Change : ``3D Cursor tool`` has been removed. Instead 3D cursor can be enabled via Settings and it can be positioned anytime.
  - Change : [Help] button has been replaced with [?] button in the inspector.
- - Change : Renamed Invert Face tool into Flip Tool.
- - Change : Renamed Flip Tool into Axis Flip Tool.
+ - Change : Renamed ``Invert Face tool`` into ``Flip Tool``.
+ - Change : Renamed ``Flip Tool`` into ``Axis Flip Tool``.
  - Change : Moved UModeler status box displayed on Scene view to the inspector.
- - Change : Removed Polygon group button and list in UModeler status. They are only availabe within Polygon Group tool.
- - Enhancement : Improved a way of positioning 3D Cursor by Ctrl+Shift+LMB on a vertex.
- - Enhancement : Align Tool - Replacing Axis/Location combo boxes with Toolbar buttons.
- - Enhancement : Boolean Tool - Revealed each boolean operation as tools in the inspector.
- - Enhancement : Pivot Tool - Enhanced a way of set a pivot. 3D Cursor posision will be the pivot pos as soon as selecting Pivot tool.
- - BugFix : Clone Tool - Fixed invisible polygon outlines on a line while dragging LMB.
- - BugFix : Eraser Tool - Fixed incorrect edge removal on a quad of a cube which is converted from a Unity primitive cube.
+ - Change : Removed Polygon group button and list in UModeler status. They are only availabe within ``Polygon Group tool``.
+ - Enhancement : Improved a way of positioning 3D Cursor by ``Ctrl+Shift+LMB`` on a vertex.
+ - Enhancement : Auto snapping ``3D Cursor`` to the cloeset UV vertex.
+ - Enhancement : ``Align Tool`` - Replacing Axis/Location combo boxes with Toolbar buttons.
+ - Enhancement : ``Boolean Tool`` - Revealed each boolean operation as tools in the inspector.
+ - Enhancement : ``Pivot Tool`` - Enhanced a way of set a pivot. 3D Cursor posision will be the pivot pos as soon as selecting ``Pivot tool``.
+ - BugFix : ``Clone Tool`` - Fixed invisible polygon outlines on a line while dragging LMB.
+ - BugFix : ``Eraser Tool`` - Fixed incorrect edge removal on a quad of a cube which is converted from a Unity primitive cube.
  - BugFix : Fixed wrong directions and positions of gizmos after rotating or scaling an object.
  - BugFix : Fixed wrong positions of vertex/polygon boxes used for selecting vertex/polygon.
  - BugFix : Fixed a shared mesh after duplicating a UModeler object.
  - BugFix : Fixed replacing Unity primitive shape mesh with UModeler mesh after UModelerizing.
- - BugFix : Fixed former polygons disappearance when one step pushpull is done just after pushpull by dragging an arrow 
- - BugFix : Fixed Duplicated Cancel action triggered by pressing ESC while selecting Vertex/Edge/Polygon.
+ - BugFix : ``Multi PushPull Tool`` - Fixed former polygons disappearance when one step pushpull is done just after pushpull by dragging an arrow 
+ - BugFix : Fixed Duplicated Cancel action triggered by pressing ``ESC`` while selecting Vertex/Edge/Polygon.
 
 UV Editor
 ---------------
- - Feature : Added Packing tool.
- - Feature : Added Fit tool.
- - Feature : Renamed Collapse tool to Weld tool and divided it into Weld to First, Weld to ave and Weld to Last.
- - Feature : Auto snapping Cross Cursor to each UV vertex.
+ - Feature : Added ``Packing tool``.
+ - Feature : Added ``Fit tool``.
+ - Feature : Renamed ``Collapse tool`` to ``Weld tool`` and divided it into ``Weld to First``, ``Weld to Ave`` and ``Weld to Last``.
+ - Enhancement : Auto snapping ``Cross Cursor`` to the cloeset UV vertex.
  - Enhancement : Improved the whole performance.
  
 3.0 Beta
@@ -48,7 +49,7 @@ UV Editor
     New Menu System - Switchable between Text based and Icon based by clicking [T] toggle in the inspector.
 	
  - Feature : New Menu System (Icon and Context based). This can be enabled by toggling [T] off in the inspector.
- - Feature : Commentary Box - Can be enabled/disabled via [Settings].
+ - Feature : ``Commentary Box`` - Can be enabled/disabled via [Settings].
  - Feature : Added [T] toggle to the top of the inspector to switch the menu between Text-based and Icon-based
  - Feature : Added [F] toggle next to [T] toggle to make the menu dockable and floatable.
   
