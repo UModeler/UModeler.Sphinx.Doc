@@ -289,7 +289,7 @@ Steps
 ------
 1. Select ``Spiral Stair Tool``
 2. Drag the mouse on a floor or an another polygon as if you make a cylinder.
-3. Release ``LMB`` and move the mouse cursor in a normal direction to raise the height. 
+3. Release ``LMB`` and move the mouse cursor in a normal direction to raise the height. You can change the direction of the stair by pressing ``SPACE``. 
 4. Click ``LMB`` to stop raising.
 5. Type the properties in inepector to adjust the shape of the stair.
 6. Press ``SPACE`` to complete or Press ``ESC`` to cancel.
@@ -300,10 +300,10 @@ Interface
  Starts to create a spiral stair.
  
 ``SPACE``
- Completes creating a spiral stair
+ Change the direction of the stair or Completes creating a spiral stair
  
 ``ESC``
-Cancels creating a spiral stair.
+ Cancels creating a spiral stair.
 
 Properties
 ---------------
@@ -324,6 +324,9 @@ Mirror
 
 Glue
  The spiral stair with this property enabled will be glued to the polygon where it started to be created. It means that the hidden part of the floor polygon by the created stair is removed.
+ 
+Angle Snap
+ When you drag the mouse with this property on, the direction of the spiral stair will snap to every 90 degree.
  
 .. figure:: /images/UModeler_SpiralStairTool.gif
    :scale: 99 %
