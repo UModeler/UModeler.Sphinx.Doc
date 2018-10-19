@@ -4,7 +4,7 @@ UModeler 2.0
 
  .. figure:: /images/UModeler_Banner.png
  
- Version 2.2.3
+Version 2.2.3
 ==================================================================================
  - Feature : Added the One-Click Build feature to Rectange, Disk, Box, Room, Stair, Cylinder, Cone, Spiral Stair, Sphere and Capsule tools.
  - Enhancement : Added the New UModeler Object button to the toolbar in the scene view.
