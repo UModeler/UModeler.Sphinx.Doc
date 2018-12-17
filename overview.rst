@@ -17,7 +17,7 @@ Install
 .. figure:: /images/UModelerImport2.jpg
    :scale: 95 %
    
-Import UModeler in your project after purchasing it.
+Import UModeler in your project after getting it.
 
 .. figure:: /images/UModelerMenu.png
    :scale: 95 %
