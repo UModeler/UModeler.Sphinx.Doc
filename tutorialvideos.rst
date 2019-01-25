@@ -15,6 +15,8 @@ Here are the videos on how to build meshes and levels with UModeler.
 
  <iframe width="560" height="315" src="https://www.youtube.com/embed/KO-iJHhzmus" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
  
+ <iframe width="560" height="315" src="https://www.youtube.com/embed/HKSHaLy6XFc" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe> 
+ 
  <iframe width="560" height="315" src="https://www.youtube.com/embed/LgLFMZWzw-0" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
  
  <iframe width="560" height="315" src="https://www.youtube.com/embed/h4qCwBA1fZs" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe> 
