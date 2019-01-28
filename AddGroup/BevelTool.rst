@@ -1,11 +1,9 @@
-############
-Bevel Tool
-############
-
-.. figure:: /images/Icon_Add_Bevel.png
+.. |Icon_Add_Bevel| image:: /images/Icon_Add_Bevel.png
    :scale: 100 %
-   
-   ``Bevel Tool`` icon
+
+############################
+Bevel Tool |Icon_Add_Bevel|
+############################
 
 The bevel tool allows you to create chamfered or rounded corners to geometry. A bevel is an effect that smooths out edges and corners.
 

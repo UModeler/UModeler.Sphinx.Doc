@@ -1,12 +1,9 @@
-################
-Arc Tool
-################
-
-.. figure:: /images/Icon_Drawing_Arc.png
+.. |Icon_Drawing_Arc| image:: /images/Icon_Drawing_Arc.png
    :scale: 100 %
    
-   ``Arc Tool`` icon
-
+################################
+Arc Tool |Icon_Drawing_Arc|
+################################
 
 Draws an arc by clicking twice on two points and dragging the mouse. The way of the cursor snpping and the change of it is same as how the line tool works. You can split or create a polygon as the line tool, or make just a curve.
 

@@ -1,6 +1,10 @@
-################
-Side Stair Tool
-################
+.. |Icon_Drawing_SideStair| image:: /images/Icon_Drawing_SideStair.png
+   :scale: 100 %
+   
+################################################
+Side Stair Tool |Icon_Drawing_SideStair|
+################################################
+
 You can draw a stair profile on a plane. It is like drawing a rectangle.
 
 Interface

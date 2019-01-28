@@ -1,11 +1,9 @@
-########################
-Box Tool
-########################
-
-.. figure:: /images/Icon_PrimitiveShapes_Box.png
+.. |Icon_PrimitiveShapes_Box| image:: /images/Icon_PrimitiveShapes_Box.png
    :scale: 100 %
    
-   ``Box Tool`` icon
+################################################
+Box Tool |Icon_PrimitiveShapes_Box|
+################################################
 
 You can create a box with this tool on a plane. This tool allows you to make a box on any polygons as well as on the floor like other tools in the primitive shapes group. Therefore, you can make a simple level only with this.
 

@@ -1,6 +1,10 @@
-################
-Parallel Tool
-################
+.. |Icon_Drawing_Parallel| image:: /images/Icon_Drawing_Parallel.png
+   :scale: 100 %
+
+################################################
+Parallel Tool |Icon_Drawing_Parallel|
+################################################
+
 The closest edge from the mouse cursor gets copied and it will be moved parallel to the original edge following the mouse cursor.
 
 Steps

@@ -1,11 +1,9 @@
-####################
-Multi PushPull Tool
-####################
-
-.. figure:: /images/Icon_Add_MultiPushPull.png
+.. |Icon_Add_MultiPushPull| image:: /images/Icon_Add_MultiPushPull.png
    :scale: 100 %
-   
-   ``Multi PushPull Tool`` icon
+
+############################################################
+Multi PushPull Tool |Icon_Add_MultiPushPull|
+############################################################
 
 .. tip::
 

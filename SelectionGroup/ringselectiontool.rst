@@ -2,13 +2,14 @@
 Ring Selection Tool
 ####################
 
-Edge Ring
-------------
-
-.. figure:: /images/Icon_Selection_RingSelectEdge.png
+.. |Icon_Selection_RingSelectEdge| image:: /images/Icon_Selection_RingSelectEdge.png
    :scale: 100 %
    
-   ``Edge Ring Tool``  Icon
+.. |Icon_Selection_RingSelectPolygon| image:: /images/Icon_Selection_RingSelectPolygon.png
+   :scale: 100 %
+
+Edge Ring |Icon_Selection_RingSelectEdge|
+------------------------------------------------
 
 Selects a sequence of edges that are not connected, but on opposite sides to each other continuing along a face loop
 
@@ -18,13 +19,8 @@ Selects a sequence of edges that are not connected, but on opposite sides to eac
 .. figure:: /images/UModeler_EdgeRing_1.jpg
    :scale: 95 %
 
-Quad Ring
-------------
-
-.. figure:: /images/Icon_Selection_RingSelectPolygon.png
-   :scale: 100 %
-   
-   ``Quad Ring Tool``  Icon
+Quad Ring |Icon_Selection_RingSelectPolygon|
+------------------------------------------------
 
 Lets you select several quad polygons across a mesh.
 

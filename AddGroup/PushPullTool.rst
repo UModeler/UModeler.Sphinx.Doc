@@ -1,11 +1,9 @@
-################
-PushPull Tool
-################
-
-.. figure:: /images/Icon_Add_PushPull.png
+.. |Icon_Add_PushPull| image:: /images/Icon_Add_PushPull.png
    :scale: 100 %
    
-   ``PushPull Tool`` icon
+################################################
+PushPull Tool |Icon_Add_PushPull|
+################################################
 
 .. tip::
 

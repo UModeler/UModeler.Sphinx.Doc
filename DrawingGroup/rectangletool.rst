@@ -1,6 +1,10 @@
-################
-Rectangle Tool
-################
+.. |Icon_Drawing_Rectangle| image:: /images/Icon_Drawing_RoundedRectangle.png
+   :scale: 100 %
+   
+################################################
+Rectangle Tool |Icon_Drawing_Rectangle|
+################################################
+
 Draws a rectangle by dragging the mouse to set two corners.
  
 Steps

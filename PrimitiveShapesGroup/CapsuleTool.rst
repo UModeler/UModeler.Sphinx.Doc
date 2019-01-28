@@ -1,11 +1,9 @@
-########################
-Capsule Tool
-########################
-
-.. figure:: /images/Icon_PrimitiveShapes_Capsule.png
+.. |Icon_PrimitiveShapes_Capsule| image:: /images/Icon_PrimitiveShapes_Capsule.png
    :scale: 100 %
-   
-   ``Capsule Tool`` icon
+
+########################################################################
+Capsule Tool |Icon_PrimitiveShapes_Capsule|
+########################################################################
 
 Creates a capsule
 

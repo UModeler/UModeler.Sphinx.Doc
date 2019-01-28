@@ -1,21 +1,15 @@
-##############
-Boolean Tool
-##############
+.. |Icon_Add_BooleanUnionimage| image:: /images/Icon_Add_BooleanUnion.png
+   :scale: 100 %
+  
+.. |Icon_Add_BooleanSubtract| image:: /images/Icon_Add_BooleanSubtract.png
+   :scale: 100 %
+   
+.. |Icon_Add_BooleanIntersection| image:: /images/Icon_Add_BooleanIntersection.png
+   :scale: 100 %
 
-.. figure:: /images/Icon_Add_BooleanUnion.png
-   :scale: 100 %
-   
-   ``Boolean Union Tool`` icon
-   
-.. figure:: /images/Icon_Add_BooleanSubtract.png
-   :scale: 100 %
-   
-   ``Boolean Subtract Tool`` icon
-   
-.. figure:: /images/Icon_Add_BooleanIntersection.png
-   :scale: 100 %
-   
-   ``Boolean Intersection Tool`` icon   
+############################################################################################################################################
+Boolean Tool |Icon_Add_BooleanUnionimage| |Icon_Add_BooleanSubtract| |Icon_Add_BooleanIntersection| 
+############################################################################################################################################
 
 This tool creates a single game object out of two game objects by applying one of the three boolean operations.
    
@@ -33,16 +27,16 @@ Steps
 .. figure:: /images/UModeler_Boolean_Union.jpg
    :scale: 95 %
 
-   Union boolean operation
+   Union boolean operation |Icon_Add_BooleanUnionimage|
 
 .. figure:: /images/UModeler_Boolean_Intersection.jpg
    :scale: 95 %
 
-   Intersection boolean operation
+   Intersection boolean operation |Icon_Add_BooleanIntersection|
    
 .. figure:: /images/UModeler_Boolean_Subtract.jpg
    :scale: 95 %
 
-   Subtract boolean operation
+   Subtract boolean operation |Icon_Add_BooleanSubtract|
    
    

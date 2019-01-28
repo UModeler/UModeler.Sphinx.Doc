@@ -1,11 +1,9 @@
-########################
-Room Tool
-########################
-
-.. figure:: /images/Icon_PrimitiveShapes_Room.png
+.. |Icon_PrimitiveShapes_Room| image:: /images/Icon_PrimitiveShapes_Room.png
    :scale: 100 %
-   
-   ``Room Tool`` icon
+
+################################################
+Room Tool |Icon_PrimitiveShapes_Room|
+################################################
    
 This is nearly same as the box tool except creating a flipped inner box.
 

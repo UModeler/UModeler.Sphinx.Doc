@@ -1,11 +1,9 @@
-################
-Line Tool
-################
-
-.. figure:: /images/Icon_Drawing_Line.png
+.. |Icon_Drawing_Line| image:: /images/Icon_Drawing_Line.png
    :scale: 100 %
    
-   ``Line Tool`` icon
+################################
+Line Tool |Icon_Drawing_Line|
+################################
 
 You can draw edges on a surface or on a floor in a row to sketch or cut out a polygon
 

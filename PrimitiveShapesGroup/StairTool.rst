@@ -1,11 +1,9 @@
-########################
-Stair Tool
-########################
-
-.. figure:: /images/Icon_PrimitiveShapes_Stair.png
+.. |Icon_PrimitiveShapes_Stair| image:: /images/Icon_PrimitiveShapes_Stair.png
    :scale: 100 %
-   
-   ``Stair Tool`` icon
+
+################################################
+Stair Tool |Icon_PrimitiveShapes_Stair|
+################################################
 
 Creates stairs like you creates a box. The stair created with this tool has a uniform rise no matter how high the stair is.
 

@@ -1,11 +1,9 @@
-############
-Mirror Tool
-############
-
-.. figure:: /images/Icon_Add_Mirror.png
+.. |Icon_Add_Mirror| image:: /images/Icon_Add_Mirror.png
    :scale: 100 %
    
-   ``Mirror Tool`` icon
+####################################
+Mirror Tool |Icon_Add_Mirror|
+####################################
    
 Mirrors a mesh along its local X,Y or Z Axes. When the mirror mode is enabled, every change will be reflected to the other side each time the mesh is modified.
    

@@ -1,11 +1,9 @@
-########################
-Cone Tool
-########################
-
-.. figure:: /images/Icon_PrimitiveShapes_Cone.png
+.. |Icon_PrimitiveShapes_Cone| image:: /images/Icon_PrimitiveShapes_Cone.png
    :scale: 100 %
-   
-   ``Cone Tool`` icon
+
+################################################
+Cone Tool |Icon_PrimitiveShapes_Cone|
+################################################   
 
 Creates a cone
 

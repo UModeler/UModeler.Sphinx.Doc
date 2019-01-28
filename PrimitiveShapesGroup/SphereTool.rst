@@ -1,11 +1,9 @@
-########################
-Sphere Tool
-########################
-
-.. figure:: /images/Icon_PrimitiveShapes_Sphere.png
+.. |Icon_PrimitiveShapes_Sphere| image:: /images/Icon_PrimitiveShapes_Sphere.png
    :scale: 100 %
-   
-   ``Sphere Tool`` icon
+
+################################################
+Sphere Tool |Icon_PrimitiveShapes_Sphere|
+################################################
 
 Creates a sphere
 

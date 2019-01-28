@@ -1,11 +1,9 @@
-############
-Clone Tool
-############
-
-.. figure:: /images/Icon_Add_Clone.png
+.. |Icon_Add_Clone| image:: /images/Icon_Add_Clone.png
    :scale: 100 %
    
-   ``Clone Tool`` icon  
+####################################
+Clone Tool |Icon_Add_Clone|
+####################################
 
 Clones the selected polygons along the line drawn by dragging a mouse. Pressing ``SPACE`` confirms the clone action and ``ESC`` cancels it.
    

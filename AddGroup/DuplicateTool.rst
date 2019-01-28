@@ -1,11 +1,10 @@
-################
-Duplicate Tool
-################
-
-.. figure:: /images/Icon_Add_Duplicate.png
+.. |Icon_Add_Duplicate| image:: /images/Icon_Add_Duplicate.png
    :scale: 100 %
    
-   ``Duplicate Tool`` icon 
+################################################
+Duplicate Tool |Icon_Add_Duplicate|
+################################################
+
 
 Duplicates the selected polygons. The duplicated polygons' center cubes will have pink color, which means that they will move separately by a gizmo.
    

@@ -1,11 +1,9 @@
-########################
-Cylinder Tool
-########################
+.. |Icon_PrimitiveShapes_Cylinder| image:: /images/Icon_PrimitiveShapes_Cylinder.png
+   :scale: 100 %   
 
-.. figure:: /images/Icon_PrimitiveShapes_Cylinder.png
-   :scale: 100 %
-   
-   ``Cylinder Tool`` icon
+################################################
+Cylinder Tool |Icon_PrimitiveShapes_Cylinder|
+################################################
 
 Creates a cylinder
 

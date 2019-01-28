@@ -1,21 +1,15 @@
-#######################
-Invert Selection Tool
-#######################
+.. |Icon_Selection_InvertSelectVertex| image:: /images/Icon_Selection_InvertSelectVertex.png
+   :scale: 100 %
+   
+.. |Icon_Selection_InvertSelectEdge| image:: /images/Icon_Selection_InvertSelectEdge.png
+   :scale: 100 %
 
-.. figure:: /images/Icon_Selection_InvertSelectVertex.png
+.. |Icon_Selection_InvertSelectPolygon| image:: /images/Icon_Selection_InvertSelectPolygon.png
    :scale: 100 %
-   
-   ``Vertex Invert Tool`` icon
-   
-.. figure:: /images/Icon_Selection_InvertSelectEdge.png
-   :scale: 100 %
-   
-   ``Edge Invert Tool`` icon
 
-.. figure:: /images/Icon_Selection_InvertSelectPolygon.png
-   :scale: 100 %
-   
-   ``Polygon Invert Tool`` icon
+##########################################################################################################################################
+Invert Selection Tool |Icon_Selection_InvertSelectVertex| |Icon_Selection_InvertSelectEdge| |Icon_Selection_InvertSelectPolygon|
+##########################################################################################################################################
 
 The selection will be inverted. It means the selected ones will get deselected and the deselected ones will get selected.
 

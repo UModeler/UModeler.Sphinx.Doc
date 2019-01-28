@@ -54,7 +54,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = 'UModeler 2.0 Manual'
+project = 'Unity UModeler Manual'
 copyright = '2017, Tripolygon'
 author = 'Tripolygon'
 

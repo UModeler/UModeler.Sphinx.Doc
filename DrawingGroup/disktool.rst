@@ -1,6 +1,10 @@
-################
-Disk Tool
-################
+.. |Icon_Drawing_Disk| image:: /images/Icon_Drawing_Disk.png
+   :scale: 100 %
+   
+################################
+Disk Tool |Icon_Drawing_Disk|
+################################
+
 Draws a disk by setting a center and a radius.
 
 Steps

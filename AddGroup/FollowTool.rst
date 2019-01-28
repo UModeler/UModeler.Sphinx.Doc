@@ -1,11 +1,10 @@
-############
-Follow Tool
-############
+.. |Icon_Add_Follow| image:: /images/Icon_Add_Follow.png
+   :scale: 100 %  
 
-.. figure:: /images/Icon_Add_Follow.png
-   :scale: 100 %
    
-   ``Follow Tool`` icon
+####################################
+Follow Tool |Icon_Add_Follow|
+####################################
    
 Extrudes a profile polygon along a path polygon. The trace will create polygons.
    

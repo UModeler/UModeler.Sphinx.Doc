@@ -1,11 +1,10 @@
-#################
-Loop Slice Tool
-#################
-
-.. figure:: /images/Icon_Add_LoopSlice.png
+.. |Icon_Add_LoopSlice| image:: /images/Icon_Add_LoopSlice.png
    :scale: 100 %
    
-   ``Loop Slice Tool`` icon
+###################################################
+Loop Slice Tool |Icon_Add_LoopSlice|
+###################################################
+
 
 ``Loop Slice`` splits a loop of faces by inserting new edge loops intersecting the chosen edge.
    

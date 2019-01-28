@@ -1,11 +1,9 @@
-########################
-Spiral Stair Tool
-########################
+.. |Icon_PrimitiveShapes_SpiralStair| image:: /images/Icon_PrimitiveShapes_SpiralStair.png
+   :scale: 100 %  
 
-.. figure:: /images/Icon_PrimitiveShapes_SpiralStair.png
-   :scale: 100 %
-   
-   ``Spiral Stair Tool`` icon
+########################################################################
+Spiral Stair Tool |Icon_PrimitiveShapes_SpiralStair|
+########################################################################
    
 Creates a Spiral Stair.
 

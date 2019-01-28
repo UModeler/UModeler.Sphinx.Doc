@@ -1,11 +1,9 @@
-################
-Add Group
-################
-   
-.. figure:: /images/Icon_Group_Add.png
+.. |Icon_Group_Add| image:: /images/Icon_Group_Add.png
    :scale: 100 %
-   
-   ``Add Group`` icon
+
+################################
+Add Group |Icon_Group_Add|
+################################
    
 .. note::
 

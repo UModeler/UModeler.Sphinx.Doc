@@ -1,11 +1,9 @@
-############
-Inset Tool
-############
-
-.. figure:: /images/Icon_Add_Inset.png
+.. |Icon_Add_Inset| image:: /images/Icon_Add_Inset.png
    :scale: 100 %
    
-   ``Inset Tool`` icon
+####################################
+Inset Tool |Icon_Add_Inset|
+####################################
 
 This tool creates a slightly smaller or bigger polygon of the selected one. 
 

@@ -1,11 +1,9 @@
-################
-Selection Group
-################
-
-.. figure:: /images/Icon_Group_Selection.png
+.. |Icon_Group_Selection| image:: /images/Icon_Group_Selection.png
    :scale: 100 %
-   
-   ``Selection Group`` icon
+
+################################################
+Selection Group |Icon_Group_Selection|
+################################################
 
 .. note::
 

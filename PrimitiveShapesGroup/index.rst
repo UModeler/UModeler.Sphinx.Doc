@@ -1,11 +1,9 @@
-########################
-Primitive Shapes Group
-########################
-
-.. figure:: /images/Icon_Group_PrimitiveShapes.png
+.. |Icon_Group_PrimitiveShapes| image:: /images/Icon_Group_PrimitiveShapes.png
    :scale: 100 %
-   
-   ``Primitive Shapes Group`` icon
+
+########################################################################
+Primitive Shapes Group |Icon_Group_PrimitiveShapes|
+########################################################################
    
 .. tip::
 

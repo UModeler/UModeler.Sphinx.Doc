@@ -1,11 +1,9 @@
-################
-Drawing Group
-################
-
-.. figure:: /images/Icon_Group_Drawing.png
+.. |Icon_Group_Drawing| image:: /images/Icon_Group_Drawing.png
    :scale: 100 %
-   
-   ``Drawing Group`` icon
+
+################################################
+Drawing Group |Icon_Group_Drawing|
+################################################
 
 .. tip::
 
