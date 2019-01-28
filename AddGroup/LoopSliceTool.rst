@@ -2,7 +2,12 @@
 Loop Slice Tool
 #################
 
-``Loop Slice`` splits a loop of faces by inserting a new edge loop intersecting the chosen edge.
+.. figure:: /images/Icon_Add_LoopSlice.png
+   :scale: 100 %
+   
+   ``Loop Slice Tool`` icon
+
+``Loop Slice`` splits a loop of faces by inserting new edge loops intersecting the chosen edge.
    
 Steps
 -------------
@@ -26,7 +31,17 @@ Properties
 Split Number
  The number of the edge loop.
  
-.. figure:: /images/UModeler_LoopSliceTool_v2.gif
+.. figure:: /images/UModeler_LoopSlice_0.jpg
    :scale: 95 %
 
-   LoopSlice Tool Demo.
+   When the cursor gets close to a long edge, a preview of a edge loop across the cylinder will be displayed.
+   
+.. figure:: /images/UModeler_LoopSlice_1.jpg
+   :scale: 95 %
+
+   Increases the number of the edge loop by rolling up the wheel.
+
+.. figure:: /images/UModeler_LoopSlice_2.jpg
+   :scale: 95 %
+
+   The mouse drag moves the edge loops up and down and the cylinder cuts after releasing the mouse.

@@ -2,6 +2,11 @@
 Mirror Tool
 ############
 
+.. figure:: /images/Icon_Add_Mirror.png
+   :scale: 100 %
+   
+   ``Mirror Tool`` icon
+   
 Mirrors a mesh along its local X,Y or Z Axes. When the mirror mode is enabled, every change will be reflected to the other side each time the mesh is modified.
    
 Steps - Start Mirror Mode
@@ -9,6 +14,10 @@ Steps - Start Mirror Mode
 1. Select ``Mirror Tool``.
 2. Adjust ``Axis``, ``Distance`` and ``Invert`` properties to set the mirror plane.
 3. Click on ``Start`` button.
+
+.. note::
+
+ You can move the mirror plane by dragging the arrow or clicking a vertex.
 
 Steps - Confirm
 --------------------------------
@@ -38,7 +47,17 @@ Start
 Done
  Finishes the mirror mode.
  
-.. figure:: /images/UModeler_MirrorTool.gif
+.. figure:: /images/UModeler_Mirror_0.jpg
    :scale: 95 %
 
-   Mirror Tool Demo. 
+   Sets the Mirror Plane
+   
+.. figure:: /images/UModeler_Mirror_1.jpg
+   :scale: 95 %
+
+   Starts the mirror mode.  
+
+.. figure:: /images/UModeler_Mirror_2.jpg
+   :scale: 95 %
+
+   Fininsh the mirro mode.

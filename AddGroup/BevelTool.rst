@@ -2,6 +2,11 @@
 Bevel Tool
 ############
 
+.. figure:: /images/Icon_Add_Bevel.png
+   :scale: 100 %
+   
+   ``Bevel Tool`` icon
+
 The bevel tool allows you to create chamfered or rounded corners to geometry. A bevel is an effect that smooths out edges and corners.
 
 Vertices, Edges or Polygons have to be selected before selecting ``BevelTool`` and then change the properties described below in the inspector.
@@ -27,7 +32,30 @@ Profile
 Clamp Overlap
  When selected, the bevel amount isn’t allowed to go larger than an amount that causes overlapping collisions with other geometry.
  
-.. figure:: /images/UModeler_BevelTool.gif
+.. |VertexBevel_0| image:: /images/UModeler_Bevel_VertexBevel_0.jpg
+   :scale: 95 %
+   
+.. |VertexBevel_1| image:: /images/UModeler_Bevel_VertexBevel_1.jpg
+   :scale: 95 %   
+
+|VertexBevel_0| |VertexBevel_1| 
+   Vertex Beveling.
+   
+.. |EdgeBevel_0| image:: /images/UModeler_Bevel_EdgeBevel_0.jpg
+   :scale: 95 %
+   
+.. |EdgeBevel_1| image:: /images/UModeler_Bevel_EdgeBevel_1.jpg
    :scale: 95 %
 
-   Bevel Tool Demo. 
+|EdgeBevel_0| |EdgeBevel_1|   
+   Edge Beveling
+
+   
+.. |PolygonBevel_0| image:: /images/UModeler_Bevel_PolygonBevel_0.jpg
+   :scale: 95 %
+
+.. |PolygonBevel_1| image:: /images/UModeler_Bevel_PolygonBevel_1.jpg
+   :scale: 95 %
+
+|PolygonBevel_0| |PolygonBevel_1|   
+   Polygon Beveling

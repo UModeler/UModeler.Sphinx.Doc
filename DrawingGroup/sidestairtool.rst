@@ -1,7 +1,7 @@
 ################
 Side Stair Tool
 ################
-You can draw a stair profile on a plane.
+You can draw a stair profile on a plane. It is like drawing a rectangle.
 
 Interface
 ------------
@@ -22,7 +22,7 @@ Rise
 Flip
  Flips the drawn stair profile.
  
-.. figure:: /images/UModeler_SideStairTool.gif
+.. figure:: /images/UModeler_SideStair.jpg
    :scale: 95 %
 
-   Side Stair Tool Demo
+   Side Stair on a polygon.

@@ -2,7 +2,12 @@
 Box Tool
 ########################
 
-You can create a box with this tool on a plane.
+.. figure:: /images/Icon_PrimitiveShapes_Box.png
+   :scale: 100 %
+   
+   ``Box Tool`` icon
+
+You can create a box with this tool on a plane. This tool allows you to make a box on any polygons as well as on the floor like other tools in the primitive shapes group. Therefore, you can make a simple level only with this.
 
 Steps
 -------------
@@ -41,12 +46,12 @@ Border Check
 Glue
  The box with this property enabled will be glued to the polygon where it started to be created. It means that the hidden part of the floor polygon by the created box is removed.
  
-.. figure:: /images/UModeler_BoxTool.gif
+.. figure:: /images/UModeler_BoxTool_OnFloor.jpg
    :scale: 95 %
 
-   Box Tool Demo - Basic and ``Width``, ``Depth``, ``Height`` and ``Border Check`` properties
+   A box on a floor.
    
-.. figure:: /images/UModeler_BoxTool2.gif
+.. figure:: /images/UModeler_BoxTool_OnPolygon.jpg
    :scale: 95 %
 
-   Box Tool Demo - ``Glue`` property and enabled `Snap`
+   A box on the other polygon.

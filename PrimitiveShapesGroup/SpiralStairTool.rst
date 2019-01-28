@@ -2,6 +2,11 @@
 Spiral Stair Tool
 ########################
 
+.. figure:: /images/Icon_PrimitiveShapes_SpiralStair.png
+   :scale: 100 %
+   
+   ``Spiral Stair Tool`` icon
+   
 Creates a Spiral Stair.
 
 Steps
@@ -47,7 +52,12 @@ Glue
 Angle Snap
  When you drag the mouse with this property on, the direction of the spiral stair will snap to every 90 degree.
  
-.. figure:: /images/UModeler_SpiralStairTool.gif
-   :scale: 99 %
+.. figure:: /images/UModeler_SpiralStair_0.jpg
+   :scale: 95 %
 
-   Spiral Stair Tool Demo  
+   Spiral Stair created on the floor. Its curvature is 270 degrees.
+   
+.. figure:: /images/UModeler_SpiralStair_1.jpg
+   :scale: 95 %
+
+   Reduces ``Width`` property and Increases ``Radius``. Its curvature is 180 degrees.

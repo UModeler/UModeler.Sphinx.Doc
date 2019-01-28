@@ -1,6 +1,12 @@
 ########################
 Sphere Tool
 ########################
+
+.. figure:: /images/Icon_PrimitiveShapes_Sphere.png
+   :scale: 100 %
+   
+   ``Sphere Tool`` icon
+
 Creates a sphere
 
 Steps
@@ -32,7 +38,12 @@ Radius
 Angle Snap
  When you drag the mouse with this property on, the sphere’s forward direction will snap to every 90 degree time.
  
-.. figure:: /images/UModeler_SphereTool.gif
+.. figure:: /images/UModeler_Sphere_OnTheFloor.jpg
    :scale: 95 %
 
-   Sphere Tool Demo
+   Sphere on the floor.
+   
+.. figure:: /images/UModeler_Sphere_OnPolygon.jpg
+   :scale: 95 %
+
+   Sphere on the other polygon.   

@@ -2,6 +2,11 @@
 Stair Tool
 ########################
 
+.. figure:: /images/Icon_PrimitiveShapes_Stair.png
+   :scale: 100 %
+   
+   ``Stair Tool`` icon
+
 Creates stairs like you creates a box. The stair created with this tool has a uniform rise no matter how high the stair is.
 
 Steps
@@ -50,12 +55,12 @@ Border Check
 Glue
  The stair with this property enabled will be glued to the polygon where it started to be created. It means that the hidden part of the floor polygon by the created stair is removed.
  
-.. figure:: /images/UModeler_StairTool.gif
+.. figure:: /images/UModeler_StairTool.jpg
    :scale: 95 %
 
-   Stair Tool Demo
+   A Stair created on the floor.
    
-.. figure:: /images/UModeler_StairTool2.gif
+.. figure:: /images/UModeler_StairTool_WideStep.jpg
    :scale: 95 %
 
-   Stair Tool Demo - Constructing a stair on a mesh
+   As ``Wide Step`` property is on, the steps will get towrard the wide side by 90 degrees rotation.

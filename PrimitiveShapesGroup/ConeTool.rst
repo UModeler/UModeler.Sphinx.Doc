@@ -2,6 +2,11 @@
 Cone Tool
 ########################
 
+.. figure:: /images/Icon_PrimitiveShapes_Cone.png
+   :scale: 100 %
+   
+   ``Cone Tool`` icon
+
 Creates a cone
 
 Steps
@@ -44,7 +49,12 @@ Border Check
 Glue
  The cone with this property enabled will be glued to the polygon where it started to be created. It means that the hidden part of the floor polygon by the created cone is removed.
  
-.. figure:: /images/UModeler_ConeTool.gif
+.. figure:: /images/UModeler_Cone_OnTheFloor.jpg
    :scale: 95 %
 
-   Cone Tool Demo  
+   Cone created on the floor.
+   
+.. figure:: /images/UModeler_Cone_OnPolygon.jpg
+   :scale: 95 %
+
+   Cone created on the other polygon.

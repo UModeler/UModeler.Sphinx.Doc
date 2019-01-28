@@ -2,6 +2,11 @@
 Inset Tool
 ############
 
+.. figure:: /images/Icon_Add_Inset.png
+   :scale: 100 %
+   
+   ``Inset Tool`` icon
+
 This tool creates a slightly smaller or bigger polygon of the selected one. 
 
 Move the cursor over a desired polygon and start to drag a mouse. Then you'll see that the polygon outline will be bigger or smaller. Release ``LMB`` to be done. Try to change the properties in the inspector if necessary. And press ``SPACE`` to confirm.
@@ -46,7 +51,7 @@ Interface
 Properties
 ---------------
 Thickness
- How smaller or bigger the polygon is. This is a distance between the starting point and the current point.
+ How smaller or bigger the polygon is. This is the distance between the starting point and the current point.
 
 Type (for ``Multiple Inset``)
  * ``Individual`` -  Each selected face is inset on its own.
@@ -55,7 +60,22 @@ Type (for ``Multiple Inset``)
 Bridge Edges
  Links corresponding edges between the original polygon and the inset polygon.
  
-.. figure:: /images/UModeler_InsetTool.gif
+.. figure:: /images/UModeler_Inset_0.jpg
    :scale: 95 %
 
-   Inset Tool Demo.  
+   Single Inset.
+   
+.. figure:: /images/UModeler_Inset_1.jpg
+   :scale: 95 %
+
+   Multi Inset - Three polygons are selected.
+   
+.. figure:: /images/UModeler_Inset_2.jpg
+   :scale: 95 %
+
+   Multi Inset - as ``Type`` property is ``Individual``
+
+.. figure:: /images/UModeler_Inset_3.jpg
+   :scale: 95 %
+
+   Multi Inset - as ``Type`` property is ``Group``

@@ -2,7 +2,13 @@
 Arc Tool
 ################
 
-Draws an arc by placing three points on a plane.
+.. figure:: /images/Icon_Drawing_Arc.png
+   :scale: 100 %
+   
+   ``Arc Tool`` icon
+
+
+Draws an arc by clicking twice on two points and dragging the mouse. The way of the cursor snpping and the change of it is same as how the line tool works. You can split or create a polygon as the line tool, or make just a curve.
 
 Steps
 -------
@@ -33,7 +39,17 @@ Segment
 Close
  When Close property is enabled, the first and last vertices will be connected to create a closed form.
  
-.. figure:: /images/UModeler_ArcTool.gif
+.. figure:: /images/UModeler_ArcTool_dividing.jpg
    :scale: 95 %
 
-   Arc Tool Demo
+   Dividing a polygon into two.
+   
+.. figure:: /images/UModelr_ArcTool_SuccessiveArc.jpg
+   :scale: 95 %
+   
+   Drawing another an edge beginning at the end of the drawn edge.
+
+.. figure:: /images/UModeler_ArcTool_NewPolygon.jpg
+   :scale: 95 %
+
+   Creating a new polygon (``Close`` property is on)

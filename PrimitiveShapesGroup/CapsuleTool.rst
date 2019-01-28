@@ -2,6 +2,11 @@
 Capsule Tool
 ########################
 
+.. figure:: /images/Icon_PrimitiveShapes_Capsule.png
+   :scale: 100 %
+   
+   ``Capsule Tool`` icon
+
 Creates a capsule
 
 Steps
@@ -44,7 +49,12 @@ Border Check
 Glue
  This property in Capsule tool isn’t used.
  
-.. figure:: /images/UModeler_CapsuleTool.gif
+.. figure:: /images/UModeler_Capsule_OnThefloor.jpg
    :scale: 95 %
 
-   Capsule Tool Demo 
+   Capsule on the floor.
+   
+.. figure:: /images/UModeler_Capsule_OnPolygon.jpg
+   :scale: 95 %
+
+   Capsule on the other polygon.

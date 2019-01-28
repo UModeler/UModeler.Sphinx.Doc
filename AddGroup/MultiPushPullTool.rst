@@ -2,6 +2,11 @@
 Multi PushPull Tool
 ####################
 
+.. figure:: /images/Icon_Add_MultiPushPull.png
+   :scale: 100 %
+   
+   ``Multi PushPull Tool`` icon
+
 .. tip::
 
  If you want a uniform size of height in ``PushPull Tool``, enable ``Snap`` in ``Settings > Snap``
@@ -56,20 +61,29 @@ One Step Push
 
 One Step Pull 
  Extrudes the selected polygons forward by the one step size.
- 
-.. figure:: /images/UModeler_MultiPushPullTool.gif
-  :scale: 95 %
-   
-  Multi PushPull Tool Demo.
- 
-.. _vertexnormalpushpull:
-.. figure:: /images/UModeler_MultiplePushPull_3types.gif
-  :scale: 95 %
-   
-  3 types of Multi PushPull action - ``Individual Polygon``, ``Vertex Normal`` and ``Average Normal`` 
 
-.. _onesteppushpull:
-.. figure:: /images/UModeler_MultiPushPull_Onestepextrusion.gif
+ 
+.. figure:: /images/UModeler_MultiPushPull_0.jpg
   :scale: 95 %
+   
+  Two polygons are selected and an arrow in the average normal direction of them is displayed.
+
+.. figure:: /images/UModeler_MultiPushPull_1.jpg
+  :scale: 95 %
+   
+  As ``PushPull Type`` is ``Individual Normal``
   
-  One Step Push/Pull.
+.. figure:: /images/UModeler_MultiPushPull_2.jpg
+  :scale: 95 %
+   
+  As ``PushPull Type`` is ``Vertex Normal``
+
+.. figure:: /images/UModeler_MultiPushPull_3.jpg
+  :scale: 95 %
+   
+  As ``PushPull Type`` is ``Average Normal``
+  
+.. figure:: /images/UModeler_MultiPushPull_4.jpg
+  :scale: 95 %
+   
+  Three polygons as above can be pushed at once.

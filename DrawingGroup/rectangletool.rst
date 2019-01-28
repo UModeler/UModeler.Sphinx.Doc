@@ -25,10 +25,10 @@ Interface
 Properties
 ------------
 Width
- The width of the rectangle.
-
+ The width of the rectangle. Displayed on the blue overlay.
+ 
 Depth
- The depth  of the rectangle.
+ The depth  of the rectangle. Displayed on the red overlay.
 
 Corner Length
  The length of the rounded corners. The rounded corners are only applied as this is more than 0.0.
@@ -36,7 +36,12 @@ Corner Length
 Corner Segment
  The segment number of the corner.
  
-.. figure:: /images/UModeler_RectangleTool.gif
+.. figure:: /images/UModeler_RectangleTool_Normal.jpg
    :scale: 95 %
 
-   Rectangle Tool Demo 
+   Normal rectangle as ``Corner Length`` property is zero.
+   
+.. figure:: /images/UModeler_RectangleTool_Round.jpg
+   :scale: 95 %
+
+   Round rectangle as ``Corner Length`` property is over zero.

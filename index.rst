@@ -9,7 +9,7 @@
    
 .. raw:: html
 
- <a href="https://www.assetstore.unity3d.com/#!/content/80868?aid=1011l36n8">Asset Store</a> | <a href="http://umodeler.co">Website</a> 
+ <a href="https://www.assetstore.unity3d.com/#!/content/80868?aid=1011l36n8">Asset Store</a> | <a href="http://www.tripolygon.com">Website</a> | <a href="https://cafe.naver.com/tripolygon/31">한글 메뉴얼</a>
  
 |
 

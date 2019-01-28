@@ -1,6 +1,12 @@
 ########################
 Room Tool
 ########################
+
+.. figure:: /images/Icon_PrimitiveShapes_Room.png
+   :scale: 100 %
+   
+   ``Room Tool`` icon
+   
 This is nearly same as the box tool except creating a flipped inner box.
 
 Steps
@@ -43,7 +49,7 @@ Border Check
 Glue
  The room with this property enabled will be glued to the polygon where it started to be created. It means that the hidden part of the floor polygon by the created room is removed.
  
-.. figure:: /images/UModeler_RoomTool.gif
+.. figure:: /images/UModeler_RoomTool.jpg
    :scale: 95 %
 
-   Room Tool Demo
+   The yellow overlay shows the distance between the outer wall and inner wall.

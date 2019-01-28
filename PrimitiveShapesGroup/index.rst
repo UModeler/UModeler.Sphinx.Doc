@@ -2,6 +2,11 @@
 Primitive Shapes Group
 ########################
 
+.. figure:: /images/Icon_Group_PrimitiveShapes.png
+   :scale: 100 %
+   
+   ``Primitive Shapes Group`` icon
+   
 .. tip::
 
  1. Pressing ``SPACE`` confirms the current action. On the other hand ``ESC`` cancels it.

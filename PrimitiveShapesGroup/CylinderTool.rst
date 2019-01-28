@@ -1,6 +1,12 @@
 ########################
 Cylinder Tool
 ########################
+
+.. figure:: /images/Icon_PrimitiveShapes_Cylinder.png
+   :scale: 100 %
+   
+   ``Cylinder Tool`` icon
+
 Creates a cylinder
 
 Steps
@@ -43,7 +49,12 @@ Border Check
 Glue
  The cylinder with this property enabled will be glued to the polygon where it started to be created. It means that the hidden part of the floor polygon by the created cylinder is removed.
 
-.. figure:: /images/UModeler_CylinderTool.gif
+.. figure:: /images/UModeler_Cylinder_OnFloor.jpg
    :scale: 95 %
 
-   Cylinder Tool Demo 
+   Cylinder on the floor.
+   
+.. figure:: /images/UModeler_CylinderTool_OnPolygon.jpg
+   :scale: 95 %
+
+   Cylinder on the other polygon.

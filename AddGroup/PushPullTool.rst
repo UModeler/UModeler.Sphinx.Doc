@@ -1,6 +1,12 @@
 ################
 PushPull Tool
 ################
+
+.. figure:: /images/Icon_Add_PushPull.png
+   :scale: 100 %
+   
+   ``PushPull Tool`` icon
+
 .. tip::
 
  If you want a uniform size of height in ``PushPull Tool``, enable ``Snap`` in ``Settings > Snap``
@@ -50,22 +56,12 @@ Border Check
 Continuous
  If off, the boundary edges between the existing side polygons and the new side polygons will be left. 
 
-.. figure:: /images/UModeler_PushPullToolBasic.gif
+.. figure:: /images/UModeler_PushPull_BeforePushing.jpg
    :scale: 95 %
 
-   Basic PushPull Tool Demo - ``Height`` and ``Continuous`` properties
+   Before cutting out a polygon.
    
-.. figure:: /images/UModeler_PushPullToolBoundaryCheck.gif
+.. figure:: /images/UModeler_PushPull_CuttingOut.jpg
    :scale: 95 %
 
-   ``Boundary Check`` property Demo   
-
-.. figure:: /images/UModeler_PushPullToolDuplicateThePrev.gif
-   :scale: 95 %
-
-   Duplicate the previous extrusion by ``SHIFT + LMB``.
-   
-.. figure:: /images/UModeler_PushPullToolHeightAlignment.gif
-   :scale: 95 %
-   
-   Height Aligntment ``CTRL + LMB Drag``  
+   When you push a polygon with ``Boundary Check`` property on, you can cut it out.

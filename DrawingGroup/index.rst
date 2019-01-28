@@ -2,6 +2,11 @@
 Drawing Group
 ################
 
+.. figure:: /images/Icon_Group_Drawing.png
+   :scale: 100 %
+   
+   ``Drawing Group`` icon
+
 .. tip::
 
  1. Pressing ``SPACE`` confirms the current action. On the other hand ``ESC`` cancels it.

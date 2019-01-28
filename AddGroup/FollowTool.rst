@@ -2,7 +2,12 @@
 Follow Tool
 ############
 
-Extrudes a profile polygon along a path polygon. The steps to use this tool are as follows.
+.. figure:: /images/Icon_Add_Follow.png
+   :scale: 100 %
+   
+   ``Follow Tool`` icon
+   
+Extrudes a profile polygon along a path polygon. The trace will create polygons.
    
 Steps
 --------
@@ -12,7 +17,22 @@ Steps
  4. Select the path polygon.
  5. Click on ``Follow Tool``.   
  
-.. figure:: /images/UModeler_FollowTool_v2.gif
+.. figure:: /images/UModeler_Follow_0.jpg
    :scale: 95 %
 
-   Follow Tool Demo. 
+   Makes a side stair polygon as a profile polygon.
+   
+.. figure:: /images/UModeler_Follow_1.jpg
+   :scale: 95 %
+
+   Draws a disk as a path polygon.
+   
+.. figure:: /images/UModeler_Follow_2.jpg
+   :scale: 95 %
+
+   Moves the profile polygons on a vertex of the path polygon using ``Snap Move Tool``
+   
+.. figure:: /images/UModeler_Follow_3.jpg
+   :scale: 95 %
+
+   Selects the profile polygon and the path polygon in order and clicks on ``Follow Tool`` button to make the upper shape.

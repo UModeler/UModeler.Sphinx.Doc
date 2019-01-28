@@ -1,7 +1,7 @@
 ################
 Parallel Tool
 ################
-The closest edge from the mouse gets copied and it will be moved parallel to the original edge following the mouse.
+The closest edge from the mouse cursor gets copied and it will be moved parallel to the original edge following the mouse cursor.
 
 Steps
 --------
@@ -31,7 +31,7 @@ Properties
 Distance
  Distance from the original edge.
  
-.. figure:: /images/UModeler_ParallelTool.gif
+.. figure:: /images/UModeler_ParallelTool.jpg
    :scale: 95 %
 
-   Parallel Tool Demo   
+   Parallel Edge.

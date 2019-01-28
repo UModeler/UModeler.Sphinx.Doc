@@ -32,7 +32,7 @@ Radius
 Angle Snap
  When you drag the mouse with this property on, the disk’s direction will snap to every 90 degree time.
  
-.. figure:: /images/UModeler_DiskTool.gif
+.. figure:: /images/UModeler_Disk_OnFloor.jpg
    :scale: 95 %
 
-   Disk Tool Demo
+   A disk made on a floor.

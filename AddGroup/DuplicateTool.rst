@@ -2,6 +2,11 @@
 Duplicate Tool
 ################
 
+.. figure:: /images/Icon_Add_Duplicate.png
+   :scale: 100 %
+   
+   ``Duplicate Tool`` icon 
+
 Duplicates the selected polygons. The duplicated polygons' center cubes will have pink color, which means that they will move separately by a gizmo.
    
 Steps
@@ -9,7 +14,11 @@ Steps
 1. Select several polygons with ``Polygon Tool``.
 2. Select ``Duplicate Tool``.
    
-.. figure:: /images/UModeler_CopyTool.gif
+.. |Duplicate_0|  image:: /images/UModeler_Duplicate_0.jpg
    :scale: 95 %
-
-   Duplicate Tool Demo   
+   
+.. |Duplicate_1|  image:: /images/UModeler_Duplicate_1.jpg
+   :scale: 95 %
+   
+|Duplicate_0| |Duplicate_1|
+    Duplicates polygons and moves them immediately.
