@@ -55,8 +55,8 @@ master_doc = 'index'
 
 # General information about the project.
 project = 'Unity UModeler Manual'
-copyright = '2019, Tripolygon'
-author = 'Tripolygon'
+copyright = '2019, tripolygon'
+author = 'tripolygon'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
