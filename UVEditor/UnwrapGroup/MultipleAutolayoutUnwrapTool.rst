@@ -2,10 +2,10 @@
    :scale: 100 %
    
 ******************************************************************************
-Multiple Autolayout Tool |Icon_UVEditor_Unwrap_AutoLayoutUnwrap|
+Multiple Auto Layout Tool |Icon_UVEditor_Unwrap_AutoLayoutUnwrap|
 ******************************************************************************
 
-``Multiple Auto Layout`` unwraps the selected polygons using Auto Layout, see :ref:`autolayout`.
+``Multiple Auto Layout`` unwraps the multiple selected polygons using :ref:`autolayout`.
 
 .. figure:: /images/MultipleAutolayoutUnwrapTool_0.png
    :scale: 80 %
