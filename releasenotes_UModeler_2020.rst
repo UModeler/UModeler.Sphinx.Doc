@@ -4,7 +4,7 @@ UModeler 2020
 
  .. figure:: /images/Releasenote2020.png
 
-Version 2.7.5 - March.17.2020
+Version 2.7.5 - March.16.2020
 ======================================= 
 - Feature : Added Auto layout tool to UV Editor to enable multiple selected polygons to be unwrap using Auto layout at once.
 - Enhancement : Added "Select Only Visible" property to the 18 following tools.
