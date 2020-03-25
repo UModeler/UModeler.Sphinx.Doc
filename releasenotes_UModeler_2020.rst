@@ -4,6 +4,14 @@ UModeler 2020
 
  .. figure:: /images/Releasenote2020.png
  
+Version 2.7.5 - March.26.2020
+=======================================
+- Fix : Fixed a bug where object highlight is invisible after UModeler component is removed.
+- Fix : Fixed UModeler mesh disappearing when multiple UModeler objects are deleted and undone and one of them are selected.
+- Fix : Fixed an issue where the created UModeler object by redoing wasn't selected so more redoing didn't work.
+- Fix : Fixed a bug where a mesh isn't rendered when a UModeler component is added to the empty game object and create some primitive shapes.
+- Improvement : Warning message is displayed when Rotate and Scale gizmo are invisible because the 3D cursor is away from the current camera view. 
+ 
 Version 2.7.4 - March.10.2020
 =======================================
 - Fix : Fixed an issue where the size of box overlay for selection representation changed abruptly when you move a mouse between the game view and the scene view on play mode. 
