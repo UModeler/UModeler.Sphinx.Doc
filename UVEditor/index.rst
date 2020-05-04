@@ -10,7 +10,6 @@ UV Editor
  |
 
  .. figure:: /images/UModeler_UVEditor.jpg
-    :scale: 95 % 
 
 .. toctree::
    :maxdepth: 2

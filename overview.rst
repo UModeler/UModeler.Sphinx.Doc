@@ -15,12 +15,10 @@ Install
 =================
 
 .. figure:: /images/UModelerImport2.jpg
-   :scale: 95 %
    
 Import UModeler in your project after getting it.
 
 .. figure:: /images/UModelerMenu.png
-   :scale: 95 %
    
 Make sure that ``Tools/UModeler`` menu has been created at the top. If you click on ``New UModeler`` as shown in the upper image, a new game object with UModeler component will be created and you can see the layout looking like the following.
    
@@ -30,7 +28,6 @@ Layout
 ========
 
 .. figure:: /images/UModelerLayout0.jpg
-   :scale: 95 %
 	
    UModeler Layout
    
@@ -141,21 +138,17 @@ Let's get started with a box.
 1. Select ``Tools``/``UModeler``/``New UModeler`` to create a new UModeler object.
 
  .. figure:: /images/GettingStarted_0.jpg
-    :scale: 95 %   
 
 2. Make sure that a new UModeler object has been created and Box Tool has been selected in the inspector.
 
  .. figure:: /images/GettingStarted_1.jpg
-    :scale: 95 %   
 
 3. Press ``One Click Build`` in the Properties to make sure that a box with 1m X 1m X 1m is created.
 
  .. figure:: /images/GettingStarted_2.jpg
-    :scale: 95 %
 	
 4. If you want to change the size of the box, type proper values in  Width, Depth and Height fields in the Properties.
 5. Click on ``Confirm`` button if you like it.
 6. Now you've made the first mesh with UModeler.
 
  .. figure:: /images/GettingStarted_3.jpg
-    :scale: 95 %

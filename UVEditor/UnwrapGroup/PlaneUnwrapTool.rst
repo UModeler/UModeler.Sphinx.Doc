@@ -38,11 +38,9 @@ Unwrap
    Unwrap the selected polygon in 3D Scene view.	  
 
 .. figure:: /images/UModeler_UVEditor_Unwrap_MarginSpacing.jpg
-     :scale: 100 %
   
      ``Margin`` and ``Spacing``
 	 
 .. figure:: /images/UModeler_UVEditor_PlaneUnwrap_1.jpg
-     :scale: 100 %
   
      Connected polygons become one UV island.

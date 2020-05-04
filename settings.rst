@@ -3,53 +3,45 @@ Toolbar, Settings and Preference
 #####################################
 
 .. figure:: /images/SceneView_For_Toolbar.jpg
-   :scale: 80 %
 	
    Scene view.
    
 The top of the scene view consists of several icon buttons. They are divided into two parts as below.
 
 .. figure:: /images/Toolbar_Left.png
-   :scale: 80 %
    
 The first part has Vertex/Edge/Polygon/Object tool buttons - These are explained in the other page.
 
 .. figure:: /images/Toolbar_Right.png
-   :scale: 80 %
 
 The second part consists of New UModeler object tool, Settings and 3D Cursor. We'll cover only them here.
 
 
 .. figure:: /images/Icon_Misc_NewUModelerObject.png
-   :scale: 100 %
    
    New UModeler Object
    
 When you click on this button, a new empty UModeler object will be created in a scene. At first you can fill it with primitives shapes and 2D polygons using the tools in Primitive Shapes group and Drawing group.
 
 .. figure:: /images/Icon_Misc_Cursor.png
-   :scale: 100 %
    
    3D Cursor
    
 When this is on, 3D cursor is activated and displayed on the scene view. The pivot of roatation and scaling is the 3D cursor position at this time. And the cursor can move along X,Y or Z axis with the move tool over the cursor. If the cursor passes nearby a vertex, it will be snapped to the vertex. If you press ``LMB`` holding ``CTRL`` and ``SHIFT``, the cursor will move to the cursor position at once. If the mouse cursor is over a UModeler mesh then, the 3D cursor will move to a picked position on the mesh.
 
 .. figure:: /images/Icon_Misc_RefreshAll.png
-   :scale: 100 %
    
    Refresh All
    
 Refreshes all UModeler objects in the current scene to recreate all resources. It could resolve a broken mesh issue and lightmap problems etc.   
 
 .. figure:: /images/Icon_Misc_Settings.png
-   :scale: 100 %
 
    Settings
   
 Lastly we'll take a look at ``Settings`` 
 
 .. figure:: /images/Settings_2.7.1.jpg
-   :scale: 100 %
 
    Settings on UModeler 2.7.1 or later
    
