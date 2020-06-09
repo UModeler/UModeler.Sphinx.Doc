@@ -4,6 +4,14 @@ UModeler 2020
 
  .. figure:: /images/Releasenote2020.png
  
+Version 2.7.16 - June.9.2020
+================================
+- Fix : Fixed a bug where Scene changes happen whenever UModeler object being selected due to latestID in UModeler class increasing.
+- Fix : Fixed a bug where mesh id changes even though umodeler doesn't change when being refreshed all.
+- Fix : Fixed an issue where a child object jumps as polygons are added to the parent empty UModeler object by creating a primitive shape like box, cone, stair etc.
+- Fix : Fixed an issue where vertex/polygon cube overlays are not displayed in Prefab Mode.
+- Fix : Fixed an issue where overlapped edges were not selected as expected in Edge Tool.
+ 
 Version 2.7.15 - June.2.2020
 ================================
 - Improvement : Made the prefab with UModeler more reliable. Propagating changes of an UModeler prefab instance works in most cases.
