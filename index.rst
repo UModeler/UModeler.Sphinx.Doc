@@ -28,6 +28,7 @@
     SurfaceGroup/index
     MiscGroup/index
     UVEditor/index
+    UModelerLite/index
     FAQ
     releasenotes
 
