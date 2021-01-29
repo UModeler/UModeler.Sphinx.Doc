@@ -5,7 +5,7 @@ UModeler Lite
 Introduction
 ===============
 
-UModeler Lite includes core functionality so that you can experience of the power and conveience of UModeler. 
+UModeler Lite includes core functionality of UModeler so that you can experience of the power and conveience of it.
 
 ----------------------------------------------------------------------------------------------------------------------
 
@@ -92,7 +92,7 @@ User Interface
 MeshFilter Component 
 ===========================
 
-New UIs are added in the MeshFilter component to save a mesh as .asset file.
+There are new UIs in the MeshFilter component to save a mesh as .asset file.
 The asset file is a kind of a reference to geometry data. It prevents mesh data from being lost in the prefab.
 
 When you create a UModeler object at first, the mesh doesn't exist yet.
@@ -105,7 +105,7 @@ The new asset file named after the mesh name is created after you click on Save 
  .. figure:: /images/MeshFilterComonent(2).jpg
     :scale: 95 %
 	
-With Save As button, you can rename it or save it in a different folder. Once a mesh is saved as .asset the mesh data in the asset file will be synchronized with the UModeler mesh.
+With ``Save As`` button, you can rename it or save it in a different folder. Once a mesh is saved as .asset the mesh data in the asset file will be synchronized with the UModeler mesh.
 
 ----------------------------------------------------------------------------------------------------------------------
 
