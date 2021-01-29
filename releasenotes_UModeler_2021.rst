@@ -2,7 +2,7 @@
 UModeler 2021
 ############################
 
-Version 2.8.1 - Feb.2.2021
+Version 2.8.1 - Feb.1.2021
 ==================================
 .. figure:: /images/TurtleShip.png
 
