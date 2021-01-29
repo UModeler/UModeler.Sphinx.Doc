@@ -5,56 +5,44 @@ UModeler Lite
 Introduction
 ===============
 
-UModeler is a ultimate and intuitive modeling extension that is available on Unity Editor. You can draw 2D shapes on any polygons in easy ways and turn them into 3D shapes intuitively.
-
-Moreover UModeler has also adopted useful features of popular DCC tools like Max and Blender etc to empower you to create complicated and rich mesh assets as well as game levels easily and quickly without any help of the external DCC tools.
+UModeler Lite includes core functionality so that you can experience of the power and conveience of UModeler. 
 
 ----------------------------------------------------------------------------------------------------------------------
 
 Install
 =================
-
-.. figure:: /images/UModelerImport2.jpg
+  
+Import UModeler Lite in your project after getting it from the asset store.
    
-Import UModeler in your project after getting it.
-
-.. figure:: /images/UModelerMenu.png
-   
-Make sure that ``Tools/UModeler`` menu has been created at the top. If you click on ``New UModeler`` as shown in the upper image, a new game object with UModeler component will be created and you can see the layout looking like the following.
+Make sure that ``Tools/UModeler Lite`` menu has been created at the top. If you click on ``New UModeler`` as shown in the upper image, a new game object with UModeler component will be created and you can see the layout looking like the following.
    
 ----------------------------------------------------------------------------------------------------------------------
 
 Layout
 ========
 
-.. figure:: /images/UModelerLayout0.jpg
+.. figure:: /images/UModelerLite_Layout.jpg
 	
-   UModeler Layout
+   UModeler Lite Layout
    
 
 ``[1]`` Working Area
  Editing meshes. 
  
 ``[2]`` Toolbar
- Frequently used tools are located here. i.e. ``Vertex/Edge/Polygon Selection/Transform`` tools, ``New UModeler Object``, ``Settings`` and ``3D Cursor`` Tools.
+ Tools used frequently are located here. i.e. ``Vertex/Edge/Polygon Selection/Transform`` tools, ``New UModeler Object``, ``Settings`` and ``3D Cursor`` Tools.
  
 ``[3]`` UModeler Inspector
- .. figure:: /images/UModelerInspector.jpg
-    :scale: 70 %
+ .. figure:: /images/UModelerLite_Inspector.jpg
+    :scale: 60 %
 	
-    UModeler Inspector
-
- Header 
-  | ``UModeler Ver 2.xx`` - Opens the About dialog box.  
-  | ``Close`` - Disables UModeler to make the current UModeler object behave and visulized same as the general obejct. It can be enabled again by clicking on Open button which is shown up during the disable status. 
-  | ``?`` - Opens the online manual describing what the current tool is and how to use it.
-  | ``Search EditBox`` - Searches for a specific tool. This edit box can be activated by pressing ENTER in the scene view.
-
+    The Inspector window of UModeler Lite
+ 
  Menu part
-  There are icons on various UModeler tools. You can switch the menu mode between icon-based and text-based via the popup menu which is brought up by pressing ``RMB``. And it's possible to detach it from the inspector to the separated window.
+  There are icons on various UModeler tools. Tools marked with black icons are only available in the full version.
   
  Properties  part
-  The properties and UIs related to the current tool are displayed here. This can also be detached to the separated window via the popup menu. 
+  The properties and GUIs related to the current tool are displayed here.  
  
 ``[4]`` Gizmo type
  .. figure:: /images/GizmoType.png
@@ -78,8 +66,6 @@ User Interface
 +---------------------------------------+---------------------------------------------------------------+
 | ``ESC``                               | Cancels the current function or Exit the current tool.        |
 +---------------------------------------+---------------------------------------------------------------+
-| ``ENTER``                             | Enables Search Edit Box.                                      |
-+---------------------------------------+---------------------------------------------------------------+
 | ``CTRL + Z``                          | Undo                                                          |
 +---------------------------------------+---------------------------------------------------------------+
 | ``CTRL + Y``                          | Redo                                                          |
@@ -98,22 +84,16 @@ User Interface
 +---------------------------------------+---------------------------------------------------------------+
 |``CTRL + LMB`` or ``LMB Drag``         | Special action depending on the current tool                  |
 +---------------------------------------+---------------------------------------------------------------+
-|``LMB Double Click``                   | Auto Layout. Click :ref:`here <autolayout>` to get more info  |
-+---------------------------------------+---------------------------------------------------------------+
 
 ``LMB`` - Left Mouse Button ``CTRL`` - Control Key
 
 ----------------------------------------------------------------------------------------------------------------------
 
-.. _meshfiltercomponent:
-
 MeshFilter Component 
 ===========================
 
-From UModeler 2.6 new UIs only for UModeler have been added to MeshFilter component to save a mesh in MeshFilter component as .asset file.
-The biggest reason of this is to deal with a situation of missing a mesh in a prefab.
-For example the mesh of the UModeler prefab is sometimes lost when UModeler component of an instance of the prefab is removed and the change is applied.
-If you saved the mesh in the prefab as .asset in advance, you would be able to cope with this.
+New UIs are added in the MeshFilter component to save a mesh as .asset file.
+The asset file is a kind of a reference to geometry data. It prevents mesh data from being lost in the prefab.
 
 When you create a UModeler object at first, the mesh doesn't exist yet.
 
@@ -125,12 +105,15 @@ The new asset file named after the mesh name is created after you click on Save 
  .. figure:: /images/MeshFilterComonent(2).jpg
     :scale: 95 %
 	
-With Save As button, you can rename it or save it in a different folder.
+With Save As button, you can rename it or save it in a different folder. Once a mesh is saved as .asset the mesh data in the asset file will be synchronized with the UModeler mesh.
 
 ----------------------------------------------------------------------------------------------------------------------
 
 Available Tools
 =======================================
+
+The available tools in the Lite version are limited but we're sure that with just the tools listed below you can create great levels and artworks.
+
 .. toctree::
    :maxdepth: 1
 
@@ -150,3 +133,13 @@ Available Tools
    Material Tool <SurfaceGroup/MaterialTool>
    Local Settings Tool <MiscGroup/LocalSettingsTool>
    New UModeler Tool <MiscGroup/NewUModelerTool>
+
+----------------------------------------------------------------------------------------------------------------------
+
+Getting Started
+=========================================
+
+----------------------------------------------------------------------------------------------------------------------
+
+Artworks made with UModeler Lite
+=========================================
