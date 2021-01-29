@@ -113,7 +113,7 @@ User Interface
 MeshFilter Component 
 ===========================
 
-New UIs are added in the MeshFilter component to save a mesh as .asset file.
+There are new UIs in the MeshFilter component to save a mesh as .asset file.
 The asset file is a kind of a reference to geometry data. It prevents mesh data from being lost in the prefab.
 
 When you create a UModeler object at first, the mesh doesn't exist yet.
