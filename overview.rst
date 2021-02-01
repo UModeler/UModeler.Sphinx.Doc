@@ -50,6 +50,11 @@ Layout
   | ``?`` - Opens the online manual describing what the current tool is and how to use it.
   | ``Search EditBox`` - Searches for a specific tool. This edit box can be activated by pressing ENTER in the scene view.
 
+ .. note::
+
+  ``Search EditBox`` isn't available in the Lite Version.  
+
+
  Menu part
   There are icons on various UModeler tools. You can switch the menu mode between icon-based and text-based via the popup menu which is brought up by pressing ``RMB``. And it's possible to detach it from the inspector to the separated window.
   

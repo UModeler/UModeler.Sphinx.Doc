@@ -5,7 +5,7 @@ UModeler Lite
 Introduction
 ===============
 
-UModeler Lite includes core functionality of UModeler so that you can experience of the power and conveience of it.
+UModeler Lite includes core functionality of the full version so that you can experience of the power and conveience of UModeler.
 
 ----------------------------------------------------------------------------------------------------------------------
 
@@ -21,7 +21,7 @@ Make sure that ``Tools/UModeler Lite`` menu has been created at the top. If you 
 Layout
 ========
 
-.. figure:: /images/UModelerLite_Layout.jpg
+.. figure:: /images/UModelerLite_Layout.png
 	
    UModeler Lite Layout
    
@@ -30,10 +30,10 @@ Layout
  Editing meshes. 
  
 ``[2]`` Toolbar
- Tools used frequently are located here. i.e. ``Vertex/Edge/Polygon Selection/Transform`` tools, ``New UModeler Object``, ``Settings`` and ``3D Cursor`` Tools.
+ Tools used frequently are located here. i.e. ``Vertex/Edge/Polygon Selection/Transform`` tools, ``New UModeler Object``, ``Settings`` and ``3D Cursor`` Tools. However, ``3D Cursor`` cannot be used in the Lite version.
  
 ``[3]`` UModeler Inspector
- .. figure:: /images/UModelerLite_Inspector.jpg
+ .. figure:: /images/UModelerLite_Inspector.png
     :scale: 60 %
 	
     The Inspector window of UModeler Lite
@@ -131,6 +131,7 @@ The available tools in the Lite version are limited but we're sure that with jus
    Detach Tool <RemoveGroup/DetachTool>
    Flip Tool <TweakGroup/FlipTool>
    Material Tool <SurfaceGroup/MaterialTool>
+   UV Tool <SurfaceGroup/UVTool>
    Local Settings Tool <MiscGroup/LocalSettingsTool>
    New UModeler Tool <MiscGroup/NewUModelerTool>
 
@@ -138,6 +139,8 @@ The available tools in the Lite version are limited but we're sure that with jus
 
 Getting Started
 =========================================
+
+
 
 ----------------------------------------------------------------------------------------------------------------------
 

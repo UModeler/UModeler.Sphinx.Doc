@@ -12,7 +12,7 @@ There are two modes of deleting elements. One is ``Immediate Mode`` and the othe
 
  .. note::
 
-  ``Edit Mode`` isn't available in the lite version.
+  ``Edit Mode`` isn't available in the Lite version.
  
 When you try to erase an edge shared by two coplanar polygons, only the edge will be removed and the two shared polygons will be merged. Otherwise, the two polygons will be removed, too.
 
