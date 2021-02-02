@@ -5,7 +5,7 @@ UModeler Lite
 Introduction
 ===============
 
-UModeler Lite includes core functionality of the full version so that you can experience of the power and conveience of UModeler.
+UModeler Lite includes core functionality of the full version so it will be enough for you to experience the power and conveience of UModeler.
 
 ----------------------------------------------------------------------------------------------------------------------
 
@@ -112,7 +112,7 @@ With ``Save As`` button, you can rename it or save it in a different folder. Onc
 Available Tools
 =======================================
 
-The available tools in the Lite version are limited but we're sure that with just the tools listed below you can create great levels and artworks.
+The available tools listed below in the Lite version are core ones for 3D modeling so we're sure that with just following tools you can create great levels and artworks.
 
 .. toctree::
    :maxdepth: 1
@@ -135,12 +135,26 @@ The available tools in the Lite version are limited but we're sure that with jus
    Local Settings Tool <MiscGroup/LocalSettingsTool>
    New UModeler Tool <MiscGroup/NewUModelerTool>
 
+----------------------------------------------------------------------------------------------------------------------   
+
+Features difference between Lite ver and Full ver
+========================================================================
+
+ .. figure:: /images/Lite_FullVersion_FeatureDifference.png
+    :scale: 50 %
+
+----------------------------------------------------------------------------------------------------------------------    
+
+Tools difference between Lite ver and Full ver
+========================================================================
+
+ .. figure:: /images/Lite_FullVersion_Icons_Difference.png
+    :scale: 65 %
+
 ----------------------------------------------------------------------------------------------------------------------
 
 Getting Started
 =========================================
-
-
 
 ----------------------------------------------------------------------------------------------------------------------
 
