@@ -160,3 +160,23 @@ Getting Started
 
 Artworks made with UModeler Lite
 =========================================
+
+.. figure:: /images/lite_screenshot4.png
+ :scale: 35 %
+
+ Level Design
+
+.. figure:: /images/lite_screenshot3.png
+ :scale: 35 %
+
+ 3D Modeling
+
+.. figure:: /images/lite_screenhot1.png
+ :scale: 35 % 
+
+ VFX
+
+.. figure:: /images/lite_screenshot0.png
+ :scale: 35 %
+
+ Concept Design
