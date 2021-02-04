@@ -7,14 +7,14 @@ UModeler Lite
 Introduction
 ===============
 
-UModeler Lite includes core functionality of the full version so it will be enough for you to experience the power and conveience of UModeler.
+``UModeler Lite`` includes core functionality of the full version so it will be enough for you to experience the power and conveience of UModeler.
 
 ----------------------------------------------------------------------------------------------------------------------
 
 Install
 =================
   
-Import UModeler Lite in your project after getting it from the asset store.
+Import ``UModeler Lite`` package in your project after getting it from the asset store.
    
 Make sure that ``Tools/UModeler Lite`` menu has been created at the top. If you click on ``New UModeler`` as shown in the upper image, a new game object with UModeler component will be created and you can see the layout looking like the following.
    
@@ -25,7 +25,7 @@ Layout
 
 .. figure:: /images/UModelerLite_Layout.png
 	
-   UModeler Lite Layout
+ ``UModeler Lite`` Layout
    
 
 ``[1]`` Working Area
@@ -38,7 +38,7 @@ Layout
  .. figure:: /images/UModelerLite_Inspector.png
     :scale: 60 %
 	
-    The Inspector window of UModeler Lite
+    The Inspector window of ``UModeler Lite``
  
  Menu part
   There are icons on various UModeler tools. Tools marked with black icons are only available in the full version.
@@ -155,8 +155,30 @@ Tools difference between Lite ver and Full ver
 
 ----------------------------------------------------------------------------------------------------------------------
 
-Getting Started
+Let's get started with UModeler Lite
 =========================================
+1. To get started with UModeler Light you should create a ``UModeler Lite`` object at first through ``Tools`` > ``UModeler Lite`` > ``New UModeler``
+
+.. figure:: /images/UModelerLite_GettingStarted1.png
+ :scale: 35 %
+
+
+2. Select ``Box Tool`` in the inspector after making sure that a new ``UModeler Lite`` object is created in the hierachy window.
+
+.. figure:: /images/UModelerLite_GettingStarted2.png
+ :scale: 35 %
+
+3. Create a box whose size is 1m x 1m x 1m by clicking on ``One-Click Build`` button.
+
+.. figure:: /images/UModelerLite_GettingStarted3.png
+ :scale: 35 %
+
+4. You can adjust width, depth and height by entering number in the Properties in the inspector.
+If you think the box looks as you wished, click on ``Confirm`` button. 
+Now you are ready to make a fantastic world with ``UModeler Lite`` in Unity.
+
+.. figure:: /images/UModelerLite_GettingStarted4.png
+ :scale: 35 %
 
 ----------------------------------------------------------------------------------------------------------------------
 
