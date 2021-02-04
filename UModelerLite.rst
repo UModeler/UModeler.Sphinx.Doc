@@ -2,6 +2,8 @@
 UModeler Lite
 ##################
 
+.. figure:: /images/lite_titleimage.png
+
 Introduction
 ===============
 
