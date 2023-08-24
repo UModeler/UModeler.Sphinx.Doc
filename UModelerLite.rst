@@ -6,8 +6,8 @@ UModeler Lite
 
 .. note::
 
- As of September 19th 2023 UModeler lite is deprecated. For those who have already downloaded the Lite version, you can continue to use it, but there will be no further updates.
- 
+ As of ``September 19th 2023`` ``UModeler lite`` is deprecated. For those who have already downloaded the Lite version, you can continue to use it, but there will be no further updates.
+
 
 Introduction
 ===============
