@@ -2,6 +2,15 @@
 UModeler 2024
 ############################
 
+UModeler 2.11.7 | June.24.2024
+=================================
+- PushPull Tool: Fixed an issue where overlapping polygons were created when using the PushPull tool.
+
+UModeler 2.11.6 | May.10.2024
+=================================
+- Clone Tool: Fixed an issue where a cloned shape wasn't glued to a polygon.
+- Fixed a null exception error that occurred in UModelerSettings.DisplayProperties.
+
 UModeler 2.11.5 | Feb.29.2024
 =================================
 - Fixed an issue where the UV layout was exporting incorrectly in UVEditor on Silicon Mac.
